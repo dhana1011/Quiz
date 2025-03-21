@@ -145,9 +145,14 @@ function optionSelected(answer) {
     const allOptions = document.querySelectorAll('.option');
     allOptions.forEach(option => {
         option.style.pointerEvents = 'none';
+        
+        // First highlight the correct answer in all cases
+        if (option.textContent.trim() === correctAnswer) {
+            option.classList.add('correct');
+        }
     });
     
-    // Highlight the user's selection
+    // Then highlight the user's selection if it's wrong
     if (userAnswer !== correctAnswer) {
         answer.classList.add('wrong');
         console.log('Answer is wrong');
@@ -159,6 +164,7 @@ function optionSelected(answer) {
 
     nextBtn.classList.add('active');
 }
+
 function questionCounter(index) {
     const questionTotal = document.querySelector('.question-total');
     questionTotal.textContent = `${index} of ${questions.length} questions`;
