@@ -1,14 +1,14 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     color: #fff;
     background: #09001d;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .header{
     position: fixed;
@@ -16,7 +16,7 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background:transparent;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,18 +35,18 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: 3s;
+    transition: 0.3s;
 }
 .navbar a:hover,
 .navbar a:active{
-    color:black;
+    color: #c40094;
 }
 .main{
     min-height: 100vh;
-    background: url(image\ back.jpg) no-repeat;
-    background-size:cover;
+    background: url('image\ back.jpg') no-repeat;
+    background-size: cover;
     background-position: center;
-    transition: -3s ease;
+    transition: 0.3s ease;
 }
 .main.active{
     filter: blur(15px);
@@ -61,7 +61,7 @@ body{
     left: -50%;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 .home-content{
@@ -73,12 +73,12 @@ body{
 .home-content h1{
     font-size: 60px;
     font-weight: 700;
-    text-shadow: 0 0 10px rgba(0,0,0,3);
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .home-content p{
     font-size: 25px;
     text-align: center;
-    text-shadow: 0 0 10px rgba(0,0,0,3);
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
     margin-bottom: 30px;
     text-decoration: dotted;
     font-style: italic;
@@ -86,21 +86,23 @@ body{
 .home-content .Start-btn{
     width: 190px;
     height: 55px;
-    background:wheat;
+    background: wheat;
     border: 2px solid #fff;
     outline: none;
     border-radius: 6px;
     box-shadow: 0 0 10px wheat;
     font-size: 18px;
-    color:black;
+    color: black;
     letter-spacing: 1px;
     font-weight: 600;
     cursor: pointer;
-    transition: 5s;
+    transition: 0.5s;
 }
 .home-content .Start-btn:hover{
-    background:#09001d;
+    background: #c40094;
     box-shadow: none;
+    color: #fff;
+    border-color: #c40094;
 }
 .popup-info {
     position: absolute;
@@ -108,25 +110,21 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 500px;
-    background:wheat;
+    background: wheat;
     border-radius: 30px;
     padding: 30px 45px;
     opacity: 0;
     pointer-events: none;
-    transition: -3s ease;
-
+    transition: 0.3s ease;
 }
 .popup-info.active{
     opacity: 1;
     pointer-events: auto;
-
 }
 .popup-info h2{
     font-size: 50px;
-    color: black o 4px;
-    font-style:italic;
-    color:black;
-    
+    color: black;
+    font-style: italic;
 }
 .popup-info .info {
     display: inline-block;
@@ -146,51 +144,50 @@ body{
 .popup-info .btn-group .info-btn{
     width: 130px;
     height: 35px;
-    background:wheat;
+    background: wheat;
     border: 2px solid black;
     outline: none;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
     font-size: 16px;
-    color:black;
+    color: black;
     font-weight: 600;
-    box-shadow:0 0 10px rgba(0,0,0,3) ; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.3); 
     cursor: pointer;  
-    transition: -5s;
+    transition: 0.5s;
 }
 .popup-info .btn-group .info-btn:nth-child(1){
     background: transparent;
     color: black;
 }
-.popup-info .btn-group .info-btn:nth-child(1):hover
-{
-    background: transparent;
-    color:black;
+.popup-info .btn-group .info-btn:nth-child(1):hover{
+    background: #c40094;
+    color: #fff;
+    border-color: #c40094;
 }
 .popup-info .btn-group .info-btn:nth-child(2):hover{
-    background: black;
-    border-color: black;
-    background: transparent;
+    background: #c40094;
+    border-color: #c40094;
+    color: #fff;
 }
-.quize-section{
+.quiz-section{
     position: relative;
     left: -50%;
     width: 100%;
-    background:black;
-    transition: -3s ease-in-out;
-    transition-delay: -25s;
-    z-index:200;
+    background: #09001d;
+    transition: 0.3s ease-in-out;
+    z-index: 200;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 50px 0;
 }
 
-.quize-section.active{
+.quiz-section.active{
     left: 0;
 }
-.quize-section .quize-box{
+.quiz-section .quiz-box{
     position: relative;
     width: 500px;
     background: transparent;
@@ -202,58 +199,50 @@ body{
     opacity: 0;
     pointer-events: none;
     transform: scale(.9);
-    transition: .3s ease;
-    transition-delay: 0s;
+    transition: 0.3s ease;
 }
-.quize-section .quize-box.active{
+.quiz-section .quiz-box.active{
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
     transition: 1s ease;
-    transition-delay: 1s;
-
 }
 
-.quize-box h1{
+.quiz-box h1{
     font-size: 32px;
     text-align: center;
     background: linear-gradient(45deg,transparent,wheat,transparent);
     border-radius: 6px;
-    margin-top: 30px;
+    margin-top: 10px;
+    padding: 5px 0;
 }
-.quize-box .quize-header{
+.quiz-box .quiz-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     border-bottom: 2px solid wheat;
 }
-.quize-header span{
+.quiz-header span{
     font-style: italic;
     color: wheat;
     font-size: 18px;
     font-weight: 500;
 }
-.quize-header .header-score{
-    background:#c40094;
+.quiz-header .header-score{
+    background: #c40094;
     padding: 7px;
     border-radius: 6px;
-    border-color: white;
-    box-shadow:white;
-    
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
 }
-.quize-box .quesion-text{
-    font-style: italic;
-    color: wheat;
-}
-.quize-box .quesion-text{
+
+.quiz-box .question-text{
     font-size: 24px;
     font-weight: 600;
     color: wheat;
-}
-h2 .quesion-text{
-    font-style: normal;
-    color: black;
+    margin: 20px 0;
+    line-height: 1.3;
 }
 
 .option-list .option{
@@ -265,7 +254,8 @@ h2 .quesion-text{
     border-radius: 3px;
     margin: 15px 0;
     cursor: pointer;
-    transition: -3s;
+    transition: 0.3s;
+    position: relative;
 }
 .option-list .option:hover{
     background: rgba(255,255,255,.1);
@@ -278,21 +268,26 @@ h2 .quesion-text{
 }
 .option-list .option.wrong{
     background: #09001d;
-    color: red;
+    color: #00a63d;
+    border-color: red;
 }
-.quize-box .quize-footer{
-    display:flex;
+.option-list .option.selected{
+    background: rgba(255,255,255,.1);
+    border-color: #c40094;
+}
+.quiz-box .quiz-footer{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
     border-top: 2px solid wheat;
     margin-top: 30px;
 }
-.quize-footer .question-total{
+.quiz-footer .question-total{
     font-size: 16px;
     font-weight: 600;
 }
-.quize-footer .next-btn{
+.quiz-footer .next-btn{
     width: 100px;
     height: 45px;
     background: wheat;
@@ -300,57 +295,65 @@ h2 .quesion-text{
     outline: none;
     border-radius: 6px;
     font-size: 16px;
-    color: rgba(0,0,0,3);
+    color: rgba(0,0,0,0.7);
     font-weight: 600;
     cursor: pointer;
-    transition: .5s;
+    pointer-events: none;
+    transition: 0.5s;
 }
-.quize-footer .next-btn.active:hover{
+.quiz-footer .next-btn.active:hover{
     background: #c40094;
     border-color: #c40094;
 }
-.quize-footer .next-btn.active{
+.quiz-footer .next-btn.active{
     pointer-events: auto;
     background: #c40094;
     border-color: #c40094;
     color: #fff;
 }
-.quize-section .result-box{
+.quiz-section .result-box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(.9);
-    width:500px;
+    width: 80%;
+    max-width: 700px;
     background: transparent;
-    border:2px solid #c40094;
+    border: 2px solid #c40094;
     border-radius: 6px;
     padding: 20px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     opacity: 0;
     pointer-events: none;
-    transition: .3s ease;
+    transition: 0.3s ease;
+    max-height: 90vh;
+    overflow-y: auto;
 }
-.quize-section .result-box.active{
+.quiz-section .result-box.active{
     opacity: 1;
     pointer-events: auto;
+    transform: translate(-50%,-50%) scale(1);
 }
 .result-box h2{
-    font-size: 52px;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c40094;
 }
 .result-box .percentage-container{
-    width: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0 20px;
-    font-size: large;
+    margin: 20px 0;
 }
 .percentage-container .circular-progress{
     position: relative;
-    width: 250px;
-    height: 250px;
-    background: conic-gradient(#c40094 3.6deg,rgb(45, 121, 83)0deg);
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(#c40094 3.6deg, rgb(45, 121, 83) 0deg);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -359,26 +362,84 @@ h2 .quesion-text{
 .percentage-container .circular-progress::before{
     content: '';
     position: absolute;
-    width: 210px;
-    height: 210px;
-    background: black;
+    width: 170px;
+    height: 170px;
+    background: #09001d;
     border-radius: 50%;
-
 }
 .circular-progress .progress-value{
     position: relative;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 }
 .percentage-container .score-text{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
     margin-top: 20px;
 }
+
+/* Detailed Results Styling */
+.detailed-results {
+    width: 100%;
+    margin: 20px 0;
+    border-top: 2px solid #c40094;
+    padding-top: 20px;
+}
+
+.question-result {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.result-question {
+    margin-bottom: 10px;
+}
+
+.question-number {
+    font-weight: bold;
+    color: wheat;
+    margin-right: 5px;
+}
+
+.result-answers {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.your-answer, .correct-answer {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.answer-label {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+    min-width: 120px;
+}
+
+.your-answer.correct .answer-text {
+    color: #00a63d;
+    font-weight: bold;
+}
+
+.your-answer.wrong .answer-text {
+    color: red;
+    font-weight: bold;
+}
+
+.correct-answer .answer-text {
+    color: #00a63d;
+    font-weight: bold;
+}
+
 .result-box .buttons{
     display: flex;
-
-
+    margin-top: 20px;
 }
 .buttons button{
     width: 130px;
@@ -392,78 +453,69 @@ h2 .quesion-text{
     font-weight: 600;
     margin: 0 20px 20px;
     cursor: pointer;
-    transition: -5s;
+    transition: 0.5s;
 }
 .buttons button:nth-child(1):hover{
-    background: #c40094;
-    border-color: #c40094;
-
+    background: transparent;
+    color: #c40094;
 }
 .buttons button:nth-child(2){
     background: transparent;
     color: #c40094;
-
 }
 .buttons button:nth-child(2):hover{
-    background:#c40094;
+    background: #c40094;
     color: #fff;
 }
 
-/* Add your existing CSS here */
-
-/* For the 'correct' and 'wrong' classes to highlight the correct and incorrect answers */
-.option-list .option.correct {
-    background: #09001d;
-    color: #00a63d;
-    border-color: #00a63d;
+/* Responsive styles */
+@media (max-width: 768px) {
+    .quiz-section .quiz-box,
+    .popup-info {
+        width: 90%;
+        padding: 15px;
+    }
+    
+    .quiz-box h1 {
+        font-size: 26px;
+    }
+    
+    .quiz-box .question-text {
+        font-size: 20px;
+    }
+    
+    .option-list .option {
+        font-size: 15px;
+        padding: 10px;
+    }
+    
+    .home-content h1 {
+        font-size: 40px;
+    }
+    
+    .home-content p {
+        font-size: 18px;
+    }
+    
+    .result-box h2 {
+        font-size: 32px;
+    }
+    
+    .percentage-container .circular-progress {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .percentage-container .circular-progress::before {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .circular-progress .progress-value {
+        font-size: 36px;
+    }
+    
+    .percentage-container .score-text {
+        font-size: 20px;
+    }
 }
-
-.option-list .option.wrong {
-    background: #09001d;
-    color: red;
-}
-
-.option-list .option.correct::after {
-    content: " (Correct Answer)";
-    font-style: italic;
-    color: #00a63d;
-}
-
-.option-list .option.wrong::after {
-    content: " (Wrong Answer)";
-    font-style: italic;
-    color: red;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
