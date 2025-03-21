@@ -159,7 +159,6 @@ function optionSelected(answer) {
 
     nextBtn.classList.add('active');
 }
-
 function questionCounter(index) {
     const questionTotal = document.querySelector('.question-total');
     questionTotal.textContent = `${index} of ${questions.length} questions`;
