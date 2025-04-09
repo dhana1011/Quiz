@@ -1,112 +1,332 @@
 let questions = [
     {
         numb: 1,
-        question: "Worker A completes a task in 8 days, and worker B completes the same task in 10 days. If both A and B work together, in how many days they will complete the task?",
-        answer: "b) 40/9",
+        question: "'தமிழுக்கு அமுததனும் தெயர்' என்று கூறியவர் யார்?",
+        answer: "b) பாரதிதாசன்",
         options: [
-            "a) 40/10",
-            "b) 40/9",
-            "c) 40/8",
-            "d) 40/7"
+            "a) பாரதியார்",
+            "b) பாரதிதாசன்",
+            "c) வாணிதாசன்",
+            "d) கண்ணதாசன்"
         ]
     },
     {
         numb: 2,
-        question: "Vikas and Mohan working together can complete a work in 6 days. If Vikas alone completes the same work in 10 days, in how many days Mohan alone can complete the same work?",
-        answer: "c) 15 days",
+        question: "'தமிழ் எங்கள் அறிவுக்குத் தழல்' இங்கு 'தழல்' குறிக்கும்?",
+        answer: "b) அறிவவப் பரப்புவது",
         options: [
-            "a) 13 days",
-            "b) 14 days",
-            "c) 15 days",
-            "d) 16 days"
+            "a) ஒளி",
+            "b) அறிவவப் பரப்புவது",
+            "c) தீ",
+            "d) சக்தி"
         ]
     },
     {
         numb: 3,
-        question: "A can do a work in 10 days and B can do the same work in 15 days. If they start working together but stop working after four days, find the fraction of the work that is left.",
-        answer: "a) 1/3",
+        question: "அதித்யா தனது கனவு எங்கு நிறைவேற்றுகிறார்?",
+        answer: "a) ISRO",
         options: [
-            "a) 1/3",
-            "b) 2/3",
-            "c) 4/7",
-            "d) 1/2"
+            "a) ISRO",
+            "b) NASA",
+            "c) DRDO",
+            "d) HAL"
         ]
     },
     {
         numb: 4,
-        question: "Peter is twice as good as workman as Tom. When they work together they can finish a task in 16 days. If Tom works alone, in many days he will complete the task?",
-        answer: "b) 48 days",
+        question: "'அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு' – இந்தக் குறள் எண்?",
+        answer: "a) 1",
         options: [
-            "a) 46 days",
-            "b) 48 days",
-            "c) 50 days",
-            "d) 52 days"
+            "a) 1",
+            "b) 10",
+            "c) 100",
+            "d) 133"
         ]
     },
     {
         numb: 5,
-        question: "A can do a job in 12 days and B can do the same job in 10 days. With the help of C they can do the same job in 4 days. In how many days C alone can do this job?",
-        answer: "a) 15 days",
+        question: "திருக்குறளில் மொத்த குறள் எண்ணிக்கை?",
+        answer: "c) 1330",
         options: [
-            "a) 15 days",
-            "b) 14 days",
-            "c) 13 days",
-            "d) 12 days"
+            "a) 1000",
+            "b) 1200",
+            "c) 1330",
+            "d) 1500"
         ]
     },
     {
         numb: 6,
-        question: "A, B, C can do a job in 10, 20 and 40 days respectively. In how many days A can complete the job if he is assisted by B and C on every third day?",
-        answer: "a) 8 days",
+        question: "'சிலப்பதிகாரம்' என்னும் காவியம் எழுதியவர் யார்?",
+        answer: "a) இளங்கோவடிகள்",
         options: [
-            "a) 8 days",
-            "b) 7 days",
-            "c) 9 days",
-            "d) 6 days"
+            "a) இளங்கோவடிகள்",
+            "b) திருவள்ளுவர்",
+            "c) கம்பர்",
+            "d) பாரதியார்"
         ]
     },
     {
         numb: 7,
-        question: "If 5 men can colour 50-meter long cloth in 5 days, in many days 4 men can color a 40-meter long cloth?",
-        answer: "a) 5 days",
+        question: "திருக்குறள் எழுதியவர் யார்?",
+        answer: "a) திருவள்ளுவர்",
         options: [
-            "a) 5 days",
-            "b) 6 days",
-            "c) 4 days",
-            "d) 3 days"
+            "a) திருவள்ளுவர்",
+            "b) பாரதி",
+            "c) கம்பர்",
+            "d) நக்கீரர்"
         ]
     },
     {
         numb: 8,
-        question: "If 4 men can finish 4 times of a work in 4 days, in how many days 6 men can finish the 6 times of same work ?",
-        answer: "b) 4 days",
+        question: "'அறிவியலால் ஆள்பவராம்' என்றது எதை குறிக்கும்?",
+        answer: "b) அறிவியலின் ஆட்சி",
         options: [
-            "a) 3 days",
-            "b) 4 days",
-            "c) 5 days",
-            "d) 6 days"
+            "a) தமிழின் அழகு",
+            "b) அறிவியலின் ஆட்சி",
+            "c) இயற்கைப் பாடல்",
+            "d) பழமொழிகள்"
         ]
     },
     {
         numb: 9,
-        question: "A can do a piece of work in 10 days. B is 50% more efficient than A. In how many days B alone can do the same job?",
-        answer: "b) 6.6 days",
+        question: "கிழவனும் கடலும் கதையின் இடம்?",
+        answer: "b) கடற்கரை",
         options: [
-            "a) 6.2 days",
-            "b) 6.6 days",
-            "c) 7 days",
-            "d) 7.2 days"
+            "a) பள்ளி",
+            "b) கடற்கரை",
+            "c) கிராமம்",
+            "d) நிலம்"
         ]
     },
     {
         numb: 10,
-        question: "A can do a job in 30 days. B alone can do the same job in 20 days. If A starts the work and joined by B after 10 days, in how many days the job will be done?",
-        answer: "d) 18 days",
+        question: "தமிழில் மொத்த எழுத்துகள் எத்தனை?",
+        answer: "c) 247",
         options: [
-            "a) 15 days",
-            "b) 16 days",
-            "c) 17 days",
-            "d) 18 days"
+            "a) 12",
+            "b) 18",
+            "c) 247",
+            "d) 216"
+        ]
+    },
+    {
+        numb: 11,
+        question: "'அறம் தவழ்ந்த வளம் தரும்' குறிப்பு எங்கு உள்ளது?",
+        answer: "b) வாழ்வின் ஒழுக்கம்",
+        options: [
+            "a) பழமொழி",
+            "b) வாழ்வின் ஒழுக்கம்",
+            "c) நாவல்",
+            "d) உரையாடல்"
+        ]
+    },
+    {
+        numb: 12,
+        question: "நூலகத்தில் பயன்படுத்தப்படும் கருவி?",
+        answer: "a) கணிப்பொறி",
+        options: [
+            "a) கணிப்பொறி",
+            "b) வீடியா கேம்ஸ்",
+            "c) தொலைபேசி",
+            "d) வாகனம்"
+        ]
+    },
+    {
+        numb: 13,
+        question: "'மறம்' என்றால் என்ன?",
+        answer: "c) வீரம்",
+        options: [
+            "a) ஒழுக்கம்",
+            "b) கல்வி",
+            "c) வீரம்",
+            "d) சமாதானம்"
+        ]
+    },
+    {
+        numb: 14,
+        question: "'ஒளி பிறந்தது' என்ற உரை எதை விளக்குகிறது?",
+        answer: "c) மின்சாரம் பற்றிய அறிவியல் விளக்கம்",
+        options: [
+            "a) சூரியனைப் பற்றி",
+            "b) மின்னலைப் பற்றி",
+            "c) மின்சாரம் பற்றிய அறிவியல் விளக்கம்",
+            "d) சூழ்நிலை"
+        ]
+    },
+    {
+        numb: 15,
+        question: "வானியல் தெரிந்து கொள்ள பயன்படும் கருவி?",
+        answer: "b) ரகசியவைக்கைகள்",
+        options: [
+            "a) வாரபத்திரிக்கை",
+            "b) ரகசியவைக்கைகள்",
+            "c) வானொலி",
+            "d) இணையம்"
+        ]
+    },
+    {
+        numb: 16,
+        question: "'கணியனின் நண்பன்' என்றால் யார்?",
+        answer: "a) மாணவன்",
+        options: [
+            "a) மாணவன்",
+            "b) ஆசிரியர்",
+            "c) கணினி",
+            "d) புத்தகம்"
+        ]
+    },
+    {
+        numb: 17,
+        question: "வீரவிழாவில் தியாகத்தை எடுத்துரைத்தவர் யார்?",
+        answer: "c) குயிலி",
+        options: [
+            "a) மீனா",
+            "b) கண்ணி",
+            "c) குயிலி",
+            "d) குப்பனா"
+        ]
+    },
+    {
+        numb: 18,
+        question: "'தமிழ் எங்கள் உயர்வுக்கு வான்' இங்கு 'வான்' குறிக்கும்?",
+        answer: "b) உயர்வு",
+        options: [
+            "a) வானிலை",
+            "b) உயர்வு",
+            "c) ஒளி",
+            "d) நிலா"
+        ]
+    },
+    {
+        numb: 19,
+        question: "'வினைச்சொல்' இல்லாதது எது?",
+        answer: "d) இதுவே மரம்",
+        options: [
+            "a) நான் சென்னை",
+            "b) அவன் வாசித்தான்",
+            "c) பூ மலர்ந்தது",
+            "d) இதுவே மரம்"
+        ]
+    },
+    {
+        numb: 20,
+        question: "தமிழில் உயிர்மெய் எழுத்துகள் எத்தனை?",
+        answer: "c) 216",
+        options: [
+            "a) 12",
+            "b) 18",
+            "c) 216",
+            "d) 247"
+        ]
+    },
+    {
+        numb: 21,
+        question: "அறிவியல் ஆத்திசூடி வரிகள் எத்தனை?",
+        answer: "c) 26",
+        options: [
+            "a) 50",
+            "b) 108",
+            "c) 26",
+            "d) 33"
+        ]
+    },
+    {
+        numb: 22,
+        question: "திருக்குறளில் வரும் முதல் பகுதி?",
+        answer: "b) அறத்துப்பால்",
+        options: [
+            "a) பொருட்பால்",
+            "b) அறத்துப்பால்",
+            "c) காதற்பால்",
+            "d) வாழ்வியல்"
+        ]
+    },
+    {
+        numb: 23,
+        question: "கிழவனும் கடலும் – இதில் 'கிழவன்' யார்?",
+        answer: "b) கடலோர வியாபாரி",
+        options: [
+            "a) விவசாயி",
+            "b) கடலோர வியாபாரி",
+            "c) ஆசிரியர்",
+            "d) மாணவன்"
+        ]
+    },
+    {
+        numb: 24,
+        question: "'முதல் எழுத்து' என்றால் என்ன?",
+        answer: "a) உயிரெழுத்து",
+        options: [
+            "a) உயிரெழுத்து",
+            "b) மெய்யெழுத்து",
+            "c) பழமொழி",
+            "d) பாயிர்ச்சி"
+        ]
+    },
+    {
+        numb: 25,
+        question: "தமிழில் மெய்யெழுத்துகள் எத்தனை?",
+        answer: "b) 18",
+        options: [
+            "a) 12",
+            "b) 18",
+            "c) 216",
+            "d) 247"
+        ]
+    },
+    {
+        numb: 26,
+        question: "'அறிவறம்' என்பது எதனால் உருவாகிறது?",
+        answer: "b) அறிவு + அறம்",
+        options: [
+            "a) அறம் + உணவு",
+            "b) அறிவு + அறம்",
+            "c) அறம் + ஒழுக்கம்",
+            "d) அறிவு + பாடம்"
+        ]
+    },
+    {
+        numb: 27,
+        question: "'வான் தமிழின் தாய்மொழி' என்றால் என்ன?",
+        answer: "b) பழமம் வாய்ந்த மொழி",
+        options: [
+            "a) அழகு தமிழ்",
+            "b) பழமம் வாய்ந்த மொழி",
+            "c) இலகு மொழி",
+            "d) புதிய மொழி"
+        ]
+    },
+    {
+        numb: 28,
+        question: "தமிழ் மொழியின் பரிணாமம் எத்தனை ஆண்டுகளுக்கு மேல்?",
+        answer: "c) 2000 ஆண்டுகள்",
+        options: [
+            "a) 1000 ஆண்டுகள்",
+            "b) 1500 ஆண்டுகள்",
+            "c) 2000 ஆண்டுகள்",
+            "d) 500 ஆண்டுகள்"
+        ]
+    },
+    {
+        numb: 29,
+        question: "‘அதிகாரல்’ என்பது எந்த வகை சொல்?",
+        answer: "a) பகுப்பாய்வு சொல்",
+        options: [
+            "a) பகுப்பாய்வு சொல்",
+            "b) பெயர்ச்சொல்",
+            "c) வினைச்சொல்",
+            "d) உரிச்சொல்"
+        ]
+    },
+    {
+        numb: 30,
+        question: "'காமராஜருக்கு வழங்கப்பட்ட பட்டம் எது?'",
+        answer: "b) கல்விக்கண் திறந்தவர்",
+        options: [
+            "a) கல்விப்பண்பாட்டாளர்",
+            "b) கல்விக்கண் திறந்தவர்",
+            "c) கல்வி தலைவர்",
+            "d) புத்தகவாணர்"
         ]
     }
 ];
