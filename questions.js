@@ -1,332 +1,442 @@
 let questions = [
     {
         numb: 1,
-        question: "'தமிழுக்கு அமுததனும் தெயர்' என்று கூறியவர் யார்?",
-        answer: "b) பாரதிதாசன்",
+        question: "The SI unit of length is",
+        answer: "c) metre",
         options: [
-            "a) பாரதியார்",
-            "b) பாரதிதாசன்",
-            "c) வாணிதாசன்",
-            "d) கண்ணதாசன்"
+            "a) centimetre",
+            "b) inch",
+            "c) metre",
+            "d) millimetre"
         ]
     },
     {
         numb: 2,
-        question: "'தமிழ் எங்கள் அறிவுக்குத் தழல்' இங்கு 'தழல்' குறிக்கும்?",
-        answer: "b) அறிவவப் பரப்புவது",
+        question: "1 kilometre = _______ metres",
+        answer: "b) 1000",
         options: [
-            "a) ஒளி",
-            "b) அறிவவப் பரப்புவது",
-            "c) தீ",
-            "d) சக்தி"
+            "a) 100",
+            "b) 1000",
+            "c) 10",
+            "d) 10000"
         ]
     },
     {
         numb: 3,
-        question: "அதித்யா தனது கனவு எங்கு நிறைவேற்றுகிறார்?",
-        answer: "a) ISRO",
+        question: "Parallax error occurs due to",
+        answer: "c) wrong eye position",
         options: [
-            "a) ISRO",
-            "b) NASA",
-            "c) DRDO",
-            "d) HAL"
+            "a) broken ruler",
+            "b) incorrect marking",
+            "c) wrong eye position",
+            "d) friction"
         ]
     },
     {
         numb: 4,
-        question: "'அகர முதல எழுத்தெல்லாம் ஆதி பகவன் முதற்றே உலகு' – இந்தக் குறள் எண்?",
-        answer: "a) 1",
+        question: "The standard unit of time is",
+        answer: "b) second",
         options: [
-            "a) 1",
-            "b) 10",
-            "c) 100",
-            "d) 133"
+            "a) hour",
+            "b) second",
+            "c) minute",
+            "d) millisecond"
         ]
     },
     {
         numb: 5,
-        question: "திருக்குறளில் மொத்த குறள் எண்ணிக்கை?",
-        answer: "c) 1330",
+        question: "Which method is used to find the length of a curved line?",
+        answer: "b) Divider and thread",
         options: [
-            "a) 1000",
-            "b) 1200",
-            "c) 1330",
-            "d) 1500"
+            "a) Measuring tape",
+            "b) Divider and thread",
+            "c) Scale",
+            "d) Balance"
         ]
     },
     {
         numb: 6,
-        question: "'சிலப்பதிகாரம்' என்னும் காவியம் எழுதியவர் யார்?",
-        answer: "a) இளங்கோவடிகள்",
+        question: "Force is defined as",
+        answer: "c) Push or Pull",
         options: [
-            "a) இளங்கோவடிகள்",
-            "b) திருவள்ளுவர்",
-            "c) கம்பர்",
-            "d) பாரதியார்"
+            "a) Movement",
+            "b) Energy",
+            "c) Push or Pull",
+            "d) Acceleration"
         ]
     },
     {
         numb: 7,
-        question: "திருக்குறள் எழுதியவர் யார்?",
-        answer: "a) திருவள்ளுவர்",
+        question: "The motion of a spinning top is",
+        answer: "c) Rotatory",
         options: [
-            "a) திருவள்ளுவர்",
-            "b) பாரதி",
-            "c) கம்பர்",
-            "d) நக்கீரர்"
+            "a) Linear",
+            "b) Curvilinear",
+            "c) Rotatory",
+            "d) Zigzag"
         ]
     },
     {
         numb: 8,
-        question: "'அறிவியலால் ஆள்பவராம்' என்றது எதை குறிக்கும்?",
-        answer: "b) அறிவியலின் ஆட்சி",
+        question: "Speed = _______ / Time",
+        answer: "b) Distance",
         options: [
-            "a) தமிழின் அழகு",
-            "b) அறிவியலின் ஆட்சி",
-            "c) இயற்கைப் பாடல்",
-            "d) பழமொழிகள்"
+            "a) Mass",
+            "b) Distance",
+            "c) Force",
+            "d) Volume"
         ]
     },
     {
         numb: 9,
-        question: "கிழவனும் கடலும் கதையின் இடம்?",
-        answer: "b) கடற்கரை",
+        question: "Which of the following causes change in motion?",
+        answer: "b) Force",
         options: [
-            "a) பள்ளி",
-            "b) கடற்கரை",
-            "c) கிராமம்",
-            "d) நிலம்"
+            "a) Air",
+            "b) Force",
+            "c) Water",
+            "d) Mass"
         ]
     },
     {
         numb: 10,
-        question: "தமிழில் மொத்த எழுத்துகள் எத்தனை?",
-        answer: "c) 247",
+        question: "A force that can be applied without touching is",
+        answer: "c) Magnetic",
         options: [
-            "a) 12",
-            "b) 18",
-            "c) 247",
-            "d) 216"
+            "a) Friction",
+            "b) Muscular",
+            "c) Magnetic",
+            "d) Mechanical"
         ]
     },
     {
         numb: 11,
-        question: "'அறம் தவழ்ந்த வளம் தரும்' குறிப்பு எங்கு உள்ளது?",
-        answer: "b) வாழ்வின் ஒழுக்கம்",
+        question: "The three physical states of matter are",
+        answer: "c) Solid, Liquid, Gas",
         options: [
-            "a) பழமொழி",
-            "b) வாழ்வின் ஒழுக்கம்",
-            "c) நாவல்",
-            "d) உரையாடல்"
+            "a) Solid, Vapour, Plasma",
+            "b) Gas, Liquid, Vapour",
+            "c) Solid, Liquid, Gas",
+            "d) Ice, Water, Steam"
         ]
     },
     {
         numb: 12,
-        question: "நூலகத்தில் பயன்படுத்தப்படும் கருவி?",
-        answer: "a) கணிப்பொறி",
+        question: "Air is a",
+        answer: "b) Mixture",
         options: [
-            "a) கணிப்பொறி",
-            "b) வீடியா கேம்ஸ்",
-            "c) தொலைபேசி",
-            "d) வாகனம்"
+            "a) Pure substance",
+            "b) Mixture",
+            "c) Liquid",
+            "d) Solid"
         ]
     },
     {
         numb: 13,
-        question: "'மறம்' என்றால் என்ன?",
-        answer: "c) வீரம்",
+        question: "Which of the following is compressible?",
+        answer: "d) Air",
         options: [
-            "a) ஒழுக்கம்",
-            "b) கல்வி",
-            "c) வீரம்",
-            "d) சமாதானம்"
+            "a) Wood",
+            "b) Iron",
+            "c) Water",
+            "d) Air"
         ]
     },
     {
         numb: 14,
-        question: "'ஒளி பிறந்தது' என்ற உரை எதை விளக்குகிறது?",
-        answer: "c) மின்சாரம் பற்றிய அறிவியல் விளக்கம்",
+        question: "The green pigment in leaves that helps in photosynthesis is",
+        answer: "b) Chlorophyll",
         options: [
-            "a) சூரியனைப் பற்றி",
-            "b) மின்னலைப் பற்றி",
-            "c) மின்சாரம் பற்றிய அறிவியல் விளக்கம்",
-            "d) சூழ்நிலை"
+            "a) Hemoglobin",
+            "b) Chlorophyll",
+            "c) Carotene",
+            "d) Xanthophyll"
         ]
     },
     {
         numb: 15,
-        question: "வானியல் தெரிந்து கொள்ள பயன்படும் கருவி?",
-        answer: "b) ரகசியவைக்கைகள்",
+        question: "Water is absorbed from the soil by",
+        answer: "c) Root",
         options: [
-            "a) வாரபத்திரிக்கை",
-            "b) ரகசியவைக்கைகள்",
-            "c) வானொலி",
-            "d) இணையம்"
+            "a) Stem",
+            "b) Leaf",
+            "c) Root",
+            "d) Flower"
         ]
     },
     {
         numb: 16,
-        question: "'கணியனின் நண்பன்' என்றால் யார்?",
-        answer: "a) மாணவன்",
+        question: "Which part of the plant is called the 'kitchen of the plant'?",
+        answer: "b) Leaf",
         options: [
-            "a) மாணவன்",
-            "b) ஆசிரியர்",
-            "c) கணினி",
-            "d) புத்தகம்"
+            "a) Root",
+            "b) Leaf",
+            "c) Flower",
+            "d) Stem"
         ]
     },
     {
         numb: 17,
-        question: "வீரவிழாவில் தியாகத்தை எடுத்துரைத்தவர் யார்?",
-        answer: "c) குயிலி",
+        question: "Animals that eat only plants are called",
+        answer: "c) Herbivores",
         options: [
-            "a) மீனா",
-            "b) கண்ணி",
-            "c) குயிலி",
-            "d) குப்பனா"
+            "a) Carnivores",
+            "b) Omnivores",
+            "c) Herbivores",
+            "d) Insectivores"
         ]
     },
     {
         numb: 18,
-        question: "'தமிழ் எங்கள் உயர்வுக்கு வான்' இங்கு 'வான்' குறிக்கும்?",
-        answer: "b) உயர்வு",
+        question: "Animals that suck blood from other animals are called",
+        answer: "b) Parasites",
         options: [
-            "a) வானிலை",
-            "b) உயர்வு",
-            "c) ஒளி",
-            "d) நிலா"
+            "a) Herbivores",
+            "b) Parasites",
+            "c) Omnivores",
+            "d) Carnivores"
         ]
     },
     {
         numb: 19,
-        question: "'வினைச்சொல்' இல்லாதது எது?",
-        answer: "d) இதுவே மரம்",
+        question: "Which of the following animals can fly?",
+        answer: "c) Bat",
         options: [
-            "a) நான் சென்னை",
-            "b) அவன் வாசித்தான்",
-            "c) பூ மலர்ந்தது",
-            "d) இதுவே மரம்"
+            "a) Ostrich",
+            "b) Penguin",
+            "c) Bat",
+            "d) Elephant"
         ]
     },
     {
         numb: 20,
-        question: "தமிழில் உயிர்மெய் எழுத்துகள் எத்தனை?",
-        answer: "c) 216",
+        question: "Insects breathe through",
+        answer: "c) Spiracles",
         options: [
-            "a) 12",
-            "b) 18",
-            "c) 216",
-            "d) 247"
+            "a) Skin",
+            "b) Gills",
+            "c) Spiracles",
+            "d) Lungs"
         ]
     },
     {
         numb: 21,
-        question: "அறிவியல் ஆத்திசூடி வரிகள் எத்தனை?",
-        answer: "c) 26",
+        question: "Personal hygiene means",
+        answer: "b) Taking care of personal cleanliness",
         options: [
-            "a) 50",
-            "b) 108",
-            "c) 26",
-            "d) 33"
+            "a) Cleaning our house",
+            "b) Taking care of personal cleanliness",
+            "c) Wearing new clothes",
+            "d) Visiting doctor regularly"
         ]
     },
     {
         numb: 22,
-        question: "திருக்குறளில் வரும் முதல் பகுதி?",
-        answer: "b) அறத்துப்பால்",
+        question: "Anaemia is caused due to deficiency of",
+        answer: "b) Iron",
         options: [
-            "a) பொருட்பால்",
-            "b) அறத்துப்பால்",
-            "c) காதற்பால்",
-            "d) வாழ்வியல்"
+            "a) Iodine",
+            "b) Iron",
+            "c) Calcium",
+            "d) Vitamin C"
         ]
     },
     {
         numb: 23,
-        question: "கிழவனும் கடலும் – இதில் 'கிழவன்' யார்?",
-        answer: "b) கடலோர வியாபாரி",
+        question: "Night blindness is caused due to deficiency of",
+        answer: "a) Vitamin A",
         options: [
-            "a) விவசாயி",
-            "b) கடலோர வியாபாரி",
-            "c) ஆசிரியர்",
-            "d) மாணவன்"
+            "a) Vitamin A",
+            "b) Vitamin B",
+            "c) Vitamin D",
+            "d) Vitamin E"
         ]
     },
     {
         numb: 24,
-        question: "'முதல் எழுத்து' என்றால் என்ன?",
-        answer: "a) உயிரெழுத்து",
+        question: "Brushing teeth twice daily prevents",
+        answer: "b) Tooth decay",
         options: [
-            "a) உயிரெழுத்து",
-            "b) மெய்யெழுத்து",
-            "c) பழமொழி",
-            "d) பாயிர்ச்சி"
+            "a) Fever",
+            "b) Tooth decay",
+            "c) Eye infection",
+            "d) Bone fracture"
         ]
     },
     {
         numb: 25,
-        question: "தமிழில் மெய்யெழுத்துகள் எத்தனை?",
-        answer: "b) 18",
+        question: "The physical parts of a computer are called",
+        answer: "c) Hardware",
         options: [
-            "a) 12",
-            "b) 18",
-            "c) 216",
-            "d) 247"
+            "a) Software",
+            "b) Programs",
+            "c) Hardware",
+            "d) Files"
         ]
     },
     {
         numb: 26,
-        question: "'அறிவறம்' என்பது எதனால் உருவாகிறது?",
-        answer: "b) அறிவு + அறம்",
+        question: "Which part displays the output in a computer?",
+        answer: "b) Monitor",
         options: [
-            "a) அறம் + உணவு",
-            "b) அறிவு + அறம்",
-            "c) அறம் + ஒழுக்கம்",
-            "d) அறிவு + பாடம்"
+            "a) Mouse",
+            "b) Monitor",
+            "c) CPU",
+            "d) Keyboard"
         ]
     },
     {
         numb: 27,
-        question: "'வான் தமிழின் தாய்மொழி' என்றால் என்ன?",
-        answer: "b) பழமம் வாய்ந்த மொழி",
+        question: "CPU stands for",
+        answer: "b) Central Processing Unit",
         options: [
-            "a) அழகு தமிழ்",
-            "b) பழமம் வாய்ந்த மொழி",
-            "c) இலகு மொழி",
-            "d) புதிய மொழி"
+            "a) Central Program Unit",
+            "b) Central Processing Unit",
+            "c) Computer Processing Unit",
+            "d) Central Practical Unit"
         ]
     },
     {
         numb: 28,
-        question: "தமிழ் மொழியின் பரிணாமம் எத்தனை ஆண்டுகளுக்கு மேல்?",
-        answer: "c) 2000 ஆண்டுகள்",
+        question: "The main function of a computer is to",
+        answer: "b) Perform calculations",
         options: [
-            "a) 1000 ஆண்டுகள்",
-            "b) 1500 ஆண்டுகள்",
-            "c) 2000 ஆண்டுகள்",
-            "d) 500 ஆண்டுகள்"
+            "a) Store food",
+            "b) Perform calculations",
+            "c) Wash clothes",
+            "d) Drive cars"
         ]
     },
     {
         numb: 29,
-        question: "‘அதிகாரல்’ என்பது எந்த வகை சொல்?",
-        answer: "a) பகுப்பாய்வு சொல்",
+        question: "Which key combination is used to copy text?",
+        answer: "b) Ctrl + C",
         options: [
-            "a) பகுப்பாய்வு சொல்",
-            "b) பெயர்ச்சொல்",
-            "c) வினைச்சொல்",
-            "d) உரிச்சொல்"
+            "a) Ctrl + X",
+            "b) Ctrl + C",
+            "c) Ctrl + V",
+            "d) Ctrl + Z"
         ]
     },
     {
         numb: 30,
-        question: "'காமராஜருக்கு வழங்கப்பட்ட பட்டம் எது?'",
-        answer: "b) கல்விக்கண் திறந்தவர்",
+        question: "Which gas is most abundant in Earth's atmosphere?",
+        answer: "b) Nitrogen",
         options: [
-            "a) கல்விப்பண்பாட்டாளர்",
-            "b) கல்விக்கண் திறந்தவர்",
-            "c) கல்வி தலைவர்",
-            "d) புத்தகவாணர்"
+            "a) Oxygen",
+            "b) Nitrogen",
+            "c) Carbon dioxide",
+            "d) Argon"
+        ]
+    },
+    {
+        numb: 31,
+        question: "The instrument used to measure atmospheric pressure is",
+        answer: "b) Barometer",
+        options: [
+            "a) Thermometer",
+            "b) Barometer",
+            "c) Hygrometer",
+            "d) Anemometer"
+        ]
+    },
+    {
+        numb: 32,
+        question: "The process by which plants make their own food is",
+        answer: "c) Photosynthesis",
+        options: [
+            "a) Respiration",
+            "b) Transpiration",
+            "c) Photosynthesis",
+            "d) Germination"
+        ]
+    },
+    {
+        numb: 33,
+        question: "The freezing point of water is",
+        answer: "a) 0°C",
+        options: [
+            "a) 0°C",
+            "b) 10°C",
+            "c) -10°C",
+            "d) 100°C"
+        ]
+    },
+    {
+        numb: 34,
+        question: "Water boils at",
+        answer: "c) 100°C",
+        options: [
+            "a) 0°C",
+            "b) 50°C",
+            "c) 100°C",
+            "d) 200°C"
+        ]
+    },
+    {
+        numb: 35,
+        question: "What is the molecular formula of water?",
+        answer: "b) H₂O",
+        options: [
+            "a) H₂",
+            "b) H₂O",
+            "c) O₂H",
+            "d) OH₂"
+        ]
+    },
+    {
+        numb: 36,
+        question: "Which organ helps fish to breathe in water?",
+        answer: "c) Gills",
+        options: [
+            "a) Lungs",
+            "b) Nose",
+            "c) Gills",
+            "d) Fins"
+        ]
+    },
+    {
+        numb: 37,
+        question: "The device used to measure time is",
+        answer: "b) clock",
+        options: [
+            "a) barometer",
+            "b) clock",
+            "c) beam balance",
+            "d) thermometer"
+        ]
+    },
+    {
+        numb: 38,
+        question: "The instrument used to measure mass is",
+        answer: "c) beam balance",
+        options: [
+            "a) thermometer",
+            "b) measuring tape",
+            "c) beam balance",
+            "d) stopwatch"
+        ]
+    },
+    {
+        numb: 39,
+        question: "The control center of the cell is",
+        answer: "b) Nucleus",
+        options: [
+            "a) Mitochondria",
+            "b) Nucleus",
+            "c) Chloroplast",
+            "d) Vacuole"
+        ]
+    },
+    {
+        numb: 40,
+        question: "The liquid part of blood is called",
+        answer: "c) Plasma",
+        options: [
+            "a) RBCs",
+            "b) WBCs",
+            "c) Plasma",
+            "d) Platelets"
         ]
     }
 ];
