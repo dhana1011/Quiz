@@ -1,442 +1,442 @@
 let questions = [
     {
         numb: 1,
-        question: "The SI unit of length is",
-        answer: "c) metre",
+        question: "பேச்சுமொழிக்கும் எழுத்துமொழிக்கும் உள்ள பேறுபாடு என்ன?",
+        answer: "a) பேச்சுமொழி உடனடியாகப் பயன்படுகிறது; எழுத்துமொழி நீண்டகாலப் பயன்பாடு",
         options: [
-            "a) centimetre",
-            "b) inch",
-            "c) metre",
-            "d) millimetre"
+            "a) பேச்சுமொழி உடனடியாகப் பயன்படுகிறது; எழுத்துமொழி நீண்டகாலப் பயன்பாடு",
+            "b) இரண்டும் ஒரே மாதிரியானவை",
+            "c) எழுத்துமொழி மட்டுமே முக்கியம்",
+            "d) பேச்சுமொழி காலம் கடந்தும் நிலைக்கும்"
         ]
     },
     {
         numb: 2,
-        question: "1 kilometre = _______ metres",
-        answer: "b) 1000",
+        question: "\"எடுத்தல், கொடுத்தல், நகுதல்\" என்று குறிப்பிடுவது எவை?",
+        answer: "b) பேச்சுமொழியின் ஏற்ற இறக்கம்",
         options: [
-            "a) 100",
-            "b) 1000",
-            "c) 10",
-            "d) 10000"
+            "a) எழுத்துகளின் ஒலிப்பு பேறுபாடு",
+            "b) பேச்சுமொழியின் ஏற்ற இறக்கம்",
+            "c) இலக்கண விதிகள்",
+            "d) மொழலின் பொருள் மாற்றம்"
         ]
     },
     {
         numb: 3,
-        question: "Parallax error occurs due to",
-        answer: "c) wrong eye position",
+        question: "\"குற்றியலுகரம்\" எத்தனை வகைகளாகப் பிரிக்கப்படுகிறது?",
+        answer: "b) 6",
         options: [
-            "a) broken ruler",
-            "b) incorrect marking",
-            "c) wrong eye position",
-            "d) friction"
+            "a) 4",
+            "b) 6",
+            "c) 8",
+            "d) 10"
         ]
     },
     {
         numb: 4,
-        question: "The standard unit of time is",
-        answer: "b) second",
+        question: "\"எஃகு\" என்ற மொழல்லில் உள்ள எழுத்து வகை எது?",
+        answer: "a) ஆய்த எழுத்து",
         options: [
-            "a) hour",
-            "b) second",
-            "c) minute",
-            "d) millisecond"
+            "a) ஆய்த எழுத்து",
+            "b) உயிரெழுத்து",
+            "c) மெய்யெழுத்து",
+            "d) குற்றியலுகர எழுத்து"
         ]
     },
     {
         numb: 5,
-        question: "Which method is used to find the length of a curved line?",
-        answer: "b) Divider and thread",
+        question: "\"கொல் + ஒலி\" சேர்த்து எழுதும் போது கிடைக்கும் மொழல்:",
+        answer: "b) கொல்லொலி",
         options: [
-            "a) Measuring tape",
-            "b) Divider and thread",
-            "c) Scale",
-            "d) Balance"
+            "a) கொல்லொலி",
+            "b) கொல்லொலி",
+            "c) கொல்லொலி",
+            "d) கொல்லொலி"
         ]
     },
     {
         numb: 6,
-        question: "Force is defined as",
-        answer: "c) Push or Pull",
+        question: "\"கொடு, மாடு\" போன்ற மொழற்களில் குற்றியலுகரம் எவ்வகையச் சேர்ந்தது?",
+        answer: "a) நடுநிலைத் தொடர்க் குற்றியலுகரம்",
         options: [
-            "a) Movement",
-            "b) Energy",
-            "c) Push or Pull",
-            "d) Acceleration"
+            "a) நடுநிலைத் தொடர்க் குற்றியலுகரம்",
+            "b) ஆய்தத் தொடர்க் குற்றியலுகரம்",
+            "c) உயிர்த்தொடர்க் குற்றியலுகரம்",
+            "d) மெய்த்தொடர்க் குற்றியலுகரம்"
         ]
     },
     {
         numb: 7,
-        question: "The motion of a spinning top is",
-        answer: "c) Rotatory",
+        question: "\"ஒன்றது\" என்ற மொழல்லில் உள்ள குற்றியலுகரம் எந்த வகை?",
+        answer: "a) உயிர்த்தொடர்க் குற்றியலுகரம்",
         options: [
-            "a) Linear",
-            "b) Curvilinear",
-            "c) Rotatory",
-            "d) Zigzag"
+            "a) உயிர்த்தொடர்க் குற்றியலுகரம்",
+            "b) மெய்த்தொடர்க் குற்றியலுகரம்",
+            "c) நடுநிலைத் தொடர்க் குற்றியலுகரம்",
+            "d) ஆய்தத் தொடர்க் குற்றியலுகரம்"
         ]
     },
     {
         numb: 8,
-        question: "Speed = _______ / Time",
-        answer: "b) Distance",
+        question: "\"ஐகாரக் குறுக்கம்\" மொழல்லின் இறுதியில் வரும்போது எத்தனை மாத்திரை அளவு ஒலிக்கும்?",
+        answer: "a) 1",
         options: [
-            "a) Mass",
-            "b) Distance",
-            "c) Force",
-            "d) Volume"
+            "a) 1",
+            "b) 1.5",
+            "c) 2",
+            "d) 0.5"
         ]
     },
     {
         numb: 9,
-        question: "Which of the following causes change in motion?",
-        answer: "b) Force",
+        question: "\"ஔகாரக் குறுக்கம்\" எந்த இடங்களில் வராது?",
+        answer: "c) மொழல்லின் இறுதி",
         options: [
-            "a) Air",
-            "b) Force",
-            "c) Water",
-            "d) Mass"
+            "a) மொழல்லின் முதல்",
+            "b) மொழல்லின் இடை",
+            "c) மொழல்லின் இறுதி",
+            "d) எல்லா இடங்களிலும்"
         ]
     },
     {
         numb: 10,
-        question: "A force that can be applied without touching is",
-        answer: "c) Magnetic",
+        question: "\"சிலம்பு சிந்தான்\" என்ற மொழற்பெயரில் மகரக் குறுக்கம் பெறும் மாத்திரை அளவு:",
+        answer: "b) கால்",
         options: [
-            "a) Friction",
-            "b) Muscular",
-            "c) Magnetic",
-            "d) Mechanical"
+            "a) அரை",
+            "b) கால்",
+            "c) ஒன்று",
+            "d) ஒன்றரை"
         ]
     },
     {
         numb: 11,
-        question: "The three physical states of matter are",
-        answer: "c) Solid, Liquid, Gas",
+        question: "\"சொல் அமைப்பு\" தொடர்பான விளக்கம் எதில் உள்ளது?",
+        answer: "a) சொல்லடைகள்",
         options: [
-            "a) Solid, Vapour, Plasma",
-            "b) Gas, Liquid, Vapour",
-            "c) Solid, Liquid, Gas",
-            "d) Ice, Water, Steam"
+            "a) சொல்லடைகள்",
+            "b) குற்றியலுகரம்",
+            "c) பேச்சுமொழி",
+            "d) எழுத்துமொழி"
         ]
     },
     {
         numb: 12,
-        question: "Air is a",
-        answer: "b) Mixture",
+        question: "\"புண்ணுக்கு மருந்து போட முடியும்; புண்ணோட்டத்துக்கு மருந்து போட முடியுமா?\" இது எதன் உதாரணம்?",
+        answer: "b) சொல்லடை",
         options: [
-            "a) Pure substance",
-            "b) Mixture",
-            "c) Liquid",
-            "d) Solid"
+            "a) தழுவல் மொழி",
+            "b) சொல்லடை",
+            "c) இலக்கண விதி",
+            "d) குற்றியலுகரம்"
         ]
     },
     {
         numb: 13,
-        question: "Which of the following is compressible?",
-        answer: "d) Air",
+        question: "\"எங்கள் தமிழ்\" தொடரில் \"பழந்தமிழ்\" என்று குறிப்பிடப்படுவது எவை?",
+        answer: "d) அனைத்தும்",
         options: [
-            "a) Wood",
-            "b) Iron",
-            "c) Water",
-            "d) Air"
+            "a) தமிழின் இனிமை",
+            "b) தமிழின் தொன்மை",
+            "c) தமிழின் சீர்மை",
+            "d) அனைத்தும்"
         ]
     },
     {
         numb: 14,
-        question: "The green pigment in leaves that helps in photosynthesis is",
-        answer: "b) Chlorophyll",
+        question: "\"அருள்நிறை அறிவைத் தரலாகும்\" என்ற வரியில் எவ்வகைச் சொல் எது?",
+        answer: "a) அருள்-அறிவு",
         options: [
-            "a) Hemoglobin",
-            "b) Chlorophyll",
-            "c) Carotene",
-            "d) Xanthophyll"
+            "a) அருள்-அறிவு",
+            "b) நிறை-தரல்",
+            "c) அருள்-நிறை",
+            "d) தரல்-அறிவு"
         ]
     },
     {
         numb: 15,
-        question: "Water is absorbed from the soil by",
-        answer: "c) Root",
+        question: "\"குற்றியலுகரம்\" என்ற சொல்லைப் பிரித்தால் கிடைப்பது:",
+        answer: "b) குறில் + இயல் + உகரம்",
         options: [
-            "a) Stem",
-            "b) Leaf",
-            "c) Root",
-            "d) Flower"
+            "a) குற்று + இயல் + உகரம்",
+            "b) குறில் + இயல் + உகரம்",
+            "c) குற்றியல் + உகரம்",
+            "d) குறி + இயல் + உகரம்"
         ]
     },
     {
         numb: 16,
-        question: "Which part of the plant is called the 'kitchen of the plant'?",
-        answer: "b) Leaf",
+        question: "\"பாடகம்\" என்ற மொழல்லில் ஐகாரக் குறுக்கம் பெறும் மாத்திரை அளவு:",
+        answer: "a) 1",
         options: [
-            "a) Root",
-            "b) Leaf",
-            "c) Flower",
-            "d) Stem"
+            "a) 1",
+            "b) 1.5",
+            "c) 2",
+            "d) 0.5"
         ]
     },
     {
         numb: 17,
-        question: "Animals that eat only plants are called",
-        answer: "c) Herbivores",
+        question: "\"முஃடீது\" என்ற மொழல்லில் ஆய்தக் குறுக்கம் பெறும் மாத்திரை அளவு:",
+        answer: "b) கால்",
         options: [
-            "a) Carnivores",
-            "b) Omnivores",
-            "c) Herbivores",
-            "d) Insectivores"
+            "a) அரை",
+            "b) கால்",
+            "c) ஒன்று",
+            "d) ஒன்றரை"
         ]
     },
     {
         numb: 18,
-        question: "Animals that suck blood from other animals are called",
-        answer: "b) Parasites",
+        question: "\"சோனன்\" என்ற மொழல்லில் மகரக் குறுக்கம் பெறும் மாத்திரை:",
+        answer: "b) கால்",
         options: [
-            "a) Herbivores",
-            "b) Parasites",
-            "c) Omnivores",
-            "d) Carnivores"
+            "a) அரை",
+            "b) கால்",
+            "c) ஒன்று",
+            "d) இல்லை"
         ]
     },
     {
         numb: 19,
-        question: "Which of the following animals can fly?",
-        answer: "c) Bat",
+        question: "எழுத்துகளின் ஒலிப்பு பேறுபாட்டைக் குறிக்கும் நூல் எது?",
+        answer: "a) நன்னூல்",
         options: [
-            "a) Ostrich",
-            "b) Penguin",
-            "c) Bat",
-            "d) Elephant"
+            "a) நன்னூல்",
+            "b) தொல்காப்பியம்",
+            "c) திருக்குறள்",
+            "d) சிலப்பதிகாரம்"
         ]
     },
     {
         numb: 20,
-        question: "Insects breathe through",
-        answer: "c) Spiracles",
+        question: "\"எளிய நடையில் தமிழ் நூல் எழுதிடவும் வேண்டும்\" என்று கூறியவர் யார்?",
+        answer: "a) பாரதிதாசன்",
         options: [
-            "a) Skin",
-            "b) Gills",
-            "c) Spiracles",
-            "d) Lungs"
+            "a) பாரதிதாசன்",
+            "b) நாமக்கல் கவிஞர்",
+            "c) சுரதா",
+            "d) மு. கருணாநிதி"
         ]
     },
     {
         numb: 21,
-        question: "Personal hygiene means",
-        answer: "b) Taking care of personal cleanliness",
+        question: "\"அணிநிழல் கொடு\" தொடரில் கவிஞர் சுரதா கொடுவை எதனுடன் ஒப்பிடுகிறார்?",
+        answer: "a) இயற்கை விடுதி",
         options: [
-            "a) Cleaning our house",
-            "b) Taking care of personal cleanliness",
-            "c) Wearing new clothes",
-            "d) Visiting doctor regularly"
+            "a) இயற்கை விடுதி",
+            "b) மணிமகுடம்",
+            "c) பழம் வழி",
+            "d) செவ்வானம்"
         ]
     },
     {
         numb: 22,
-        question: "Anaemia is caused due to deficiency of",
-        answer: "b) Iron",
+        question: "கொட்டில் சாம்புகள் கலக்கம் அடைவதற்குக் காரணம் எது?",
+        answer: "a) சிறகுகள் கிழங்கத் தொடங்குதல்",
         options: [
-            "a) Iodine",
-            "b) Iron",
-            "c) Calcium",
-            "d) Vitamin C"
+            "a) சிறகுகள் கிழங்கத் தொடங்குதல்",
+            "b) மயில்களின் நடனம்",
+            "c) நரிகளின் ஊளையிடுதல்",
+            "d) யானைகளின் நடை"
         ]
     },
     {
         numb: 23,
-        question: "Night blindness is caused due to deficiency of",
-        answer: "a) Vitamin A",
+        question: "\"கொடு\" தொடரில் குறிப்பிடப்படாத விலங்கு எது?",
+        answer: "d) முதலை",
         options: [
-            "a) Vitamin A",
-            "b) Vitamin B",
-            "c) Vitamin D",
-            "d) Vitamin E"
+            "a) சிங்கம்",
+            "b) காண்டாமிருகம்",
+            "c) கரடி",
+            "d) முதலை"
         ]
     },
     {
         numb: 24,
-        question: "Brushing teeth twice daily prevents",
-        answer: "b) Tooth decay",
+        question: "கொட்டின் தலைவரைக் குறிக்கும் விலங்கு எது?",
+        answer: "a) புலி",
         options: [
-            "a) Fever",
-            "b) Tooth decay",
-            "c) Eye infection",
-            "d) Bone fracture"
+            "a) புலி",
+            "b) யானை",
+            "c) மான்",
+            "d) கரடி"
         ]
     },
     {
         numb: 25,
-        question: "The physical parts of a computer are called",
-        answer: "c) Hardware",
+        question: "\"கிளிக்கண்ணி\" தொடர் வகையின் சிறப்பு என்ன?",
+        answer: "a) கிளியின் மொழிபோல் இனிமை",
         options: [
-            "a) Software",
-            "b) Programs",
-            "c) Hardware",
-            "d) Files"
+            "a) கிளியின் மொழிபோல் இனிமை",
+            "b) வீரத்தைத் தூண்டல்",
+            "c) இயற்கை காட்சி",
+            "d) அற்புதத் தொடல்"
         ]
     },
     {
         numb: 26,
-        question: "Which part displays the output in a computer?",
-        answer: "b) Monitor",
+        question: "ஜாதவ் பயாங் எந்த ஆண்டு \"இந்திய மரங்கள்\" பட்டம் பெற்றார்?",
+        answer: "b) 2012",
         options: [
-            "a) Mouse",
-            "b) Monitor",
-            "c) CPU",
-            "d) Keyboard"
+            "a) 2010",
+            "b) 2012",
+            "c) 2015",
+            "d) 2018"
         ]
     },
     {
         numb: 27,
-        question: "CPU stands for",
-        answer: "b) Central Processing Unit",
+        question: "மணல் பரப்பில் மரங்கள் வளர எது உதவியது?",
+        answer: "a) மண்புழுக்கள் மற்றும் சிற்றுயிர்கள்",
         options: [
-            "a) Central Program Unit",
-            "b) Central Processing Unit",
-            "c) Computer Processing Unit",
-            "d) Central Practical Unit"
+            "a) மண்புழுக்கள் மற்றும் சிற்றுயிர்கள்",
+            "b) புல் உரம்",
+            "c) நீர்ப்பாசனம்",
+            "d) காற்று"
         ]
     },
     {
         numb: 28,
-        question: "The main function of a computer is to",
-        answer: "b) Perform calculations",
+        question: "ஜாதவ் பயாங் நட்ட முதல் மரம் எது?",
+        answer: "a) மூங்கில்",
         options: [
-            "a) Store food",
-            "b) Perform calculations",
-            "c) Wash clothes",
-            "d) Drive cars"
+            "a) மூங்கில்",
+            "b) பம்பு",
+            "c) அரசு",
+            "d) தேக்கு"
         ]
     },
     {
         numb: 29,
-        question: "Which key combination is used to copy text?",
-        answer: "b) Ctrl + C",
+        question: "யானைகள் வந்த பிறகு கொட்டில் வளர்ந்த புதிய விலங்கு எது?",
+        answer: "a) காண்டாமிருகம்",
         options: [
-            "a) Ctrl + X",
-            "b) Ctrl + C",
-            "c) Ctrl + V",
-            "d) Ctrl + Z"
+            "a) காண்டாமிருகம்",
+            "b) சிறுத்தை",
+            "c) நரி",
+            "d) மான்"
         ]
     },
     {
         numb: 30,
-        question: "Which gas is most abundant in Earth's atmosphere?",
-        answer: "b) Nitrogen",
+        question: "ஜாதவ் பயாங் பெற்ற விருது எது?",
+        answer: "a) பத்மஸ்ரீ",
         options: [
-            "a) Oxygen",
-            "b) Nitrogen",
-            "c) Carbon dioxide",
-            "d) Argon"
+            "a) பத்மஸ்ரீ",
+            "b) பத்மபூஷண்",
+            "c) பத்மவிபூஷண்",
+            "d) இல்லை"
         ]
     },
     {
         numb: 31,
-        question: "The instrument used to measure atmospheric pressure is",
-        answer: "b) Barometer",
+        question: "யானைகள் ஒரு நாளைக்கு எத்தனை லிட்டர் தண்ணீர் குடிக்கும்?",
+        answer: "c) 65 லிட்டர்",
         options: [
-            "a) Thermometer",
-            "b) Barometer",
-            "c) Hygrometer",
-            "d) Anemometer"
+            "a) 25 லிட்டர்",
+            "b) 50 லிட்டர்",
+            "c) 65 லிட்டர்",
+            "d) 100 லிட்டர்"
         ]
     },
     {
         numb: 32,
-        question: "The process by which plants make their own food is",
-        answer: "c) Photosynthesis",
+        question: "\"கொட்டுக்கு அரசன்\" என அழைக்கப்படும் விலங்கு எது?",
+        answer: "b) புலி",
         options: [
-            "a) Respiration",
-            "b) Transpiration",
-            "c) Photosynthesis",
-            "d) Germination"
+            "a) சிங்கம்",
+            "b) புலி",
+            "c) கரடி",
+            "d) யானை"
         ]
     },
     {
         numb: 33,
-        question: "The freezing point of water is",
-        answer: "a) 0°C",
+        question: "ஆசிய யானை மற்றும் ஆப்பிரிக்க யானையின் பேறுபாடு எது?",
+        answer: "c) இரண்டும் சரியானவை",
         options: [
-            "a) 0°C",
-            "b) 10°C",
-            "c) -10°C",
-            "d) 100°C"
+            "a) ஆண்-பெண் இரண்டுக்கும் தந்தம் உண்டு (ஆப்பிரிக்க)",
+            "b) பெண்ணுக்குத் தந்தம் இல்லை (ஆசிய)",
+            "c) இரண்டும் சரியானவை",
+            "d) இரண்டும் தவறானவை"
         ]
     },
     {
         numb: 34,
-        question: "Water boils at",
-        answer: "c) 100°C",
+        question: "கரடி ஏறும் மரத்தின் காரணம் எது?",
+        answer: "a) பழம் மற்றும் சுளைகளைத் தின்னதற்காக",
         options: [
-            "a) 0°C",
-            "b) 50°C",
-            "c) 100°C",
-            "d) 200°C"
+            "a) பழம் மற்றும் சுளைகளைத் தின்னதற்காக",
+            "b) மீனைத் தவிர்த்தற்காக",
+            "c) தூங்குவதற்காக",
+            "d) படையுடன் வாழ்வதற்காக"
         ]
     },
     {
         numb: 35,
-        question: "What is the molecular formula of water?",
-        answer: "b) H₂O",
+        question: "புள்ளிமான்கள் எந்த அம்சத்தில் சிறந்தவை?",
+        answer: "b) அழகு",
         options: [
-            "a) H₂",
-            "b) H₂O",
-            "c) O₂H",
-            "d) OH₂"
+            "a) வேகம்",
+            "b) அழகு",
+            "c) திறன்",
+            "d) உயரம்"
         ]
     },
     {
         numb: 36,
-        question: "Which organ helps fish to breathe in water?",
-        answer: "c) Gills",
+        question: "\"அட்சய பதிக்கட்டும் அந்த மரம்\" தொடரில் கவிஞர் ஏன் மரத்தைக் காக்க விரும்பவில்லை?",
+        answer: "a) பெருங்காற்றில் வீழ்ந்ததால்",
         options: [
-            "a) Lungs",
-            "b) Nose",
-            "c) Gills",
-            "d) Fins"
+            "a) பெருங்காற்றில் வீழ்ந்ததால்",
+            "b) மரம் மரித்துவிட்டதால்",
+            "c) நிழல் இல்லாததால்",
+            "d) சுளைகள் இல்லாததால்"
         ]
     },
     {
         numb: 37,
-        question: "The device used to measure time is",
-        answer: "b) clock",
+        question: "மரக்கன்றுகளுக்கு நீர் ஊற்ற ஜாதவ் பயாங் பயன்படுத்திய முறை எது?",
+        answer: "a) மூங்கில் குச்சி + தோல்",
         options: [
-            "a) barometer",
-            "b) clock",
-            "c) beam balance",
-            "d) thermometer"
+            "a) மூங்கில் குச்சி + தோல்",
+            "b) நீர் குழாய்",
+            "c) ஆற்று நீர் பதக்கம்",
+            "d) மழைநீர் சேமிப்பு"
         ]
     },
     {
         numb: 38,
-        question: "The instrument used to measure mass is",
-        answer: "c) beam balance",
+        question: "கொட்டில் உணவுச் சங்கிலி நீளமாக இருப்பது எது காரணம்?",
+        answer: "a) புலிகள்",
         options: [
-            "a) thermometer",
-            "b) measuring tape",
-            "c) beam balance",
-            "d) stopwatch"
+            "a) புலிகள்",
+            "b) யானைகள்",
+            "c) மான்கள்",
+            "d) தேள்கள்"
         ]
     },
     {
         numb: 39,
-        question: "The control center of the cell is",
-        answer: "b) Nucleus",
+        question: "ஜாதவ் பயாங் எந்த மாநிலத்தைச் சேர்ந்தவர்?",
+        answer: "a) அசாம்",
         options: [
-            "a) Mitochondria",
-            "b) Nucleus",
-            "c) Chloroplast",
-            "d) Vacuole"
+            "a) அசாம்",
+            "b) தமிழ்நாடு",
+            "c) குஜராத்",
+            "d) கேரளா"
         ]
     },
     {
         numb: 40,
-        question: "The liquid part of blood is called",
-        answer: "c) Plasma",
+        question: "\"மரம் வளர்ப்போம்! மழை பெறுவோம்!\" என்று கூறியவர் யார்?",
+        answer: "a) ஜாதவ் பயாங்",
         options: [
-            "a) RBCs",
-            "b) WBCs",
-            "c) Plasma",
-            "d) Platelets"
+            "a) ஜாதவ் பயாங்",
+            "b) சுரதா",
+            "c) பாரதிதாசன்",
+            "d) நாமக்கல் கவிஞர்"
         ]
     }
 ];
