@@ -1,4 +1,4 @@
-questions = [
+let questions = [
     {
         "numb": 1,
         "question": "வல்லின எழுத்துகள் எந்த இடத்தில் பிறக்கின்றன?",
