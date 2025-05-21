@@ -1,530 +1,222 @@
-let questions =[
+let questions = [
     {
         "numb": 1,
-        "question": "சொல்லின் இறுதியில் வராத எழுத்து எது?",
-        "answer": "c) ஃ",
+        "question": "A is the mother of B and C. D is the husband of B. E is the son of D. F is the father of A. How is F related to E?",
+        "answer": "B. Maternal grandfather",
         "options": [
-            "a) ம்",
-            "b) ன்",
-            "c) ஃ",
-            "d) ர்"
+            "A. Paternal grandfather",
+            "B. Maternal grandfather",
+            "C. Uncle",
+            "D. Cousin"
         ]
     },
     {
         "numb": 2,
-        "question": "வல்லின மெய் எழுத்துகள் எவை?",
-        "answer": "b) க், ச், ட்",
+        "question": "G is the brother of H. I is H’s daughter. J is the father of G. How is J related to I?",
+        "answer": "A. Paternal grandfather",
         "options": [
-            "a) க், ங், ச்",
-            "b) க், ச், ட்",
-            "c) ங், ஞ், ண்",
-            "d) ய், ர், ல்"
+            "A. Paternal grandfather",
+            "B. Maternal grandfather",
+            "C. Uncle",
+            "D. Cousin"
         ]
     },
     {
         "numb": 3,
-        "question": "உயிர்மெய் எழுத்துகளின் ஒலி எதனை ஒத்திருக்கும்?",
-        "answer": "b) உயிர் எழுத்து",
+        "question": "K is the father of L. M is L’s sister. N is the son of M. How is K related to N?",
+        "answer": "B. Grandfather",
         "options": [
-            "a) மெய் எழுத்து",
-            "b) உயிர் எழுத்து",
-            "c) குறில்",
-            "d) நெடில்"
+            "A. Father",
+            "B. Grandfather",
+            "C. Uncle",
+            "D. Brother"
         ]
     },
     {
         "numb": 4,
-        "question": "உயிர்மெய் எழுத்துகள் எத்தனை?",
-        "answer": "a) 30",
+        "question": "O is the mother of P. Q is P’s husband. R is Q’s father. How is R related to O?",
+        "answer": "A. Father-in-law",
         "options": [
-            "a) 30",
-            "b) 12",
-            "c) 18",
-            "d) 24"
+            "A. Father-in-law",
+            "B. Brother-in-law",
+            "C. Cousin",
+            "D. Son"
         ]
     },
     {
         "numb": 5,
-        "question": "ஒரு மாத்திரை என்பது எதன் அளவு?",
-        "answer": "b) ஒரு கண இமைப்பு",
+        "question": "S is the sister of T. U is T’s son. V is S’s daughter. How is V related to U?",
+        "answer": "B. Cousin",
         "options": [
-            "a) ஒரு முழங்கை",
-            "b) ஒரு கண இமைப்பு",
-            "c) ஒரு நொடி",
-            "d) ஒரு மூச்சு"
+            "A. Sister",
+            "B. Cousin",
+            "C. Aunt",
+            "D. Mother"
         ]
     },
     {
         "numb": 6,
-        "question": "உயிர் எழுத்துகளில் குறில் எத்தனை?",
-        "answer": "a) 5",
+        "question": "W is the father of X. Y is the mother of Z, who is X’s wife. How is Y related to W?",
+        "answer": "A. Mother-in-law",
         "options": [
-            "a) 5",
-            "b) 7",
-            "c) 6",
-            "d) 12"
+            "A. Mother-in-law",
+            "B. Sister-in-law",
+            "C. Daughter-in-law",
+            "D. Aunt"
         ]
     },
     {
         "numb": 7,
-        "question": "சார்பெழுத்துகளின் வகைகள் எத்தனை?",
-        "answer": "c) 10",
+        "question": "A is the son of B. C is B’s brother. D is C’s daughter. How is D related to A?",
+        "answer": "B. Cousin",
         "options": [
-            "a) 5",
-            "b) 7",
-            "c) 10",
-            "d) 12"
+            "A. Sister",
+            "B. Cousin",
+            "C. Aunt",
+            "D. Niece"
         ]
     },
     {
         "numb": 8,
-        "question": "நெடில் எழுத்துகளின் எண்ணிக்கை?",
-        "answer": "b) 7",
+        "question": "E is the husband of F. G is F’s mother. H is G’s husband. How is H related to E?",
+        "answer": "A. Father-in-law",
         "options": [
-            "a) 5",
-            "b) 7",
-            "c) 12",
-            "d) 10"
+            "A. Father-in-law",
+            "B. Brother-in-law",
+            "C. Uncle",
+            "D. Cousin"
         ]
     },
     {
         "numb": 9,
-        "question": "சொல்லின் முதலில் வராத எழுத்து எது?",
-        "answer": "a) ங்",
+        "question": "I is the father of J. K is J’s sister. L is K’s son. How is I related to L?",
+        "answer": "B. Grandfather",
         "options": [
-            "a) ங்",
-            "b) க்",
-            "c) ச்",
-            "d) ம்"
+            "A. Father",
+            "B. Grandfather",
+            "C. Uncle",
+            "D. Brother"
         ]
     },
     {
         "numb": 10,
-        "question": "\"நன்ரி\" என்பதன் சரியான திருத்தம் எது?",
-        "answer": "a) நன்றி",
+        "question": "M is the mother of N. O is N’s son. P is M’s father. How is P related to O?",
+        "answer": "C. Great-grandfather",
         "options": [
-            "a) நன்றி",
-            "b) நன்றி",
-            "c) நன்ரி",
-            "d) நண்ரி"
+            "A. Maternal grandfather",
+            "B. Paternal grandfather",
+            "C. Great-grandfather",
+            "D. Uncle"
         ]
     },
     {
         "numb": 11,
-        "question": "ஆய்த எழுத்து எவ்வாறு குறிக்கப்படுகிறது?",
-        "answer": "a) ஃ",
+        "question": "Q is the brother of R. S is R’s daughter. T is Q’s son. How is T related to S?",
+        "answer": "B. Cousin",
         "options": [
-            "a) ஃ",
-            "b) ங்",
-            "c) ஞ்",
-            "d) ண்"
+            "A. Brother",
+            "B. Cousin",
+            "C. Uncle",
+            "D. Nephew"
         ]
     },
     {
         "numb": 12,
-        "question": "இடையின மெய் எழுத்துகள் எத்தனை?",
-        "answer": "a) 6",
+        "question": "U is the father of V. W is V’s wife. X is W’s brother. How is X related to U?",
+        "answer": "B. Brother-in-law",
         "options": [
-            "a) 6",
-            "b) 3",
-            "c) 5",
-            "d) 4"
+            "A. Son-in-law",
+            "B. Brother-in-law",
+            "C. Nephew",
+            "D. Uncle"
         ]
     },
     {
         "numb": 13,
-        "question": "ஒற்றுப்புள்ளி கொண்ட எழுத்து எது?",
-        "answer": "c) ஃ",
+        "question": "Y is the mother of Z. A is Z’s son. B is Y’s husband. How is B related to A?",
+        "answer": "B. Grandfather",
         "options": [
-            "a) ம்",
-            "b) ன்",
-            "c) ஃ",
-            "d) ற்"
+            "A. Father",
+            "B. Grandfather",
+            "C. Uncle",
+            "D. Cousin"
         ]
     },
     {
         "numb": 14,
-        "question": "\"மணம்\" என்பது எவ்வகைச் சொல்?",
-        "answer": "a) பெயர்ச்சொல்",
+        "question": "C is the daughter of D. E is D’s sister. F is E’s son. How is F related to C?",
+        "answer": "B. Cousin",
         "options": [
-            "a) பெயர்ச்சொல்",
-            "b) வினைச்சொல்",
-            "c) உரிச்சொல்",
-            "d) இடைச்சொல்"
+            "A. Brother",
+            "B. Cousin",
+            "C. Uncle",
+            "D. Nephew"
         ]
     },
     {
         "numb": 15,
-        "question": "புறவினா எழுத்து எது?",
-        "answer": "a) ஆ",
+        "question": "G is the father of H. I is H’s mother. J is I’s father. How is J related to G?",
+        "answer": "A. Father-in-law",
         "options": [
-            "a) ஆ",
-            "b) எ",
-            "c) யா",
-            "d) ஓ"
+            "A. Father-in-law",
+            "B. Brother-in-law",
+            "C. Cousin",
+            "D. Son"
         ]
     },
     {
         "numb": 16,
-        "question": "\"ஏன்\" இதில் உள்ள வினா எழுத்து எது?",
-        "answer": "a) ஏ",
+        "question": "K is the sister of L. M is L’s husband. N is M’s father. How is N related to K?",
+        "answer": "A. Father-in-law",
         "options": [
-            "a) ஏ",
-            "b) ன்",
-            "c) எ",
-            "d) ஏன்"
+            "A. Father-in-law",
+            "B. Brother-in-law",
+            "C. Uncle",
+            "D. Cousin"
         ]
     },
     {
         "numb": 17,
-        "question": "\"இந்நூல்\" இதில் உள்ள சுட்டு எழுத்து எது?",
-        "answer": "a) இ",
+        "question": "O is the mother of P. Q is P’s daughter. R is O’s mother. How is R related to Q?",
+        "answer": "C. Great-grandmother",
         "options": [
-            "a) இ",
-            "b) ந்",
-            "c) ல்",
-            "d) நூ"
+            "A. Maternal grandmother",
+            "B. Paternal grandmother",
+            "C. Great-grandmother",
+            "D. Aunt"
         ]
     },
     {
         "numb": 18,
-        "question": "சுட்டு எழுத்துகள் எவை?",
-        "answer": "a) அ, இ, உ",
+        "question": "S is the husband of T. U is T’s brother. V is U’s son. How is V related to S?",
+        "answer": "A. Nephew",
         "options": [
-            "a) அ, இ, உ",
-            "b) எ, ஏ, ஐ",
-            "c) ஓ, ஒ, ஔ",
-            "d) யா, யோ"
+            "A. Nephew",
+            "B. Son",
+            "C. Brother-in-law",
+            "D. Cousin"
         ]
     },
     {
         "numb": 19,
-        "question": "இயல்பு நவிற்சி அணிக்கு எடுத்துக்காட்டு எது?",
-        "answer": "c) கன்று பசுவுடன் விளையாடுகிறது",
+        "question": "W is the father of X. Y is X’s sister. Z is Y’s daughter. How is Z related to W?",
+        "answer": "A. Granddaughter",
         "options": [
-            "a) மழை பொழிகிறது",
-            "b) மலை முகடு வானைத் தொடுகிறது",
-            "c) கன்று பசுவுடன் விளையாடுகிறது",
-            "d) நெருப்பு எரிகிறது"
+            "A. Granddaughter",
+            "B. Niece",
+            "C. Daughter",
+            "D. Cousin"
         ]
     },
     {
         "numb": 20,
-        "question": "இன எழுத்துகள் எத்தனை?",
-        "answer": "a) 6",
+        "question": "A is the brother of B. C is B’s son. D is A’s daughter. How is D related to C?",
+        "answer": "B. Cousin",
         "options": [
-            "a) 6",
-            "b) 3",
-            "c) 12",
-            "d) 18"
-        ]
-    },
-    {
-        "numb": 21,
-        "question": "உயர்வு நவிற்சி அணியின் சிறப்பு என்ன?",
-        "answer": "a) இயல்பை மிகைப்படுத்துதல்",
-        "options": [
-            "a) இயல்பை மிகைப்படுத்துதல்",
-            "b) உண்மையை மறைத்தல்",
-            "c) எளிய விளக்கம்",
-            "d) கேலியாகக் கூறுதல்"
-        ]
-    },
-    {
-        "numb": 22,
-        "question": "\"குளிர்நீரில் குளித்தால் கூதல் அடிக்கும்\" இது எந்த அணி?",
-        "answer": "b) உயர்வு நவிற்சி",
-        "options": [
-            "a) உவமை அணி",
-            "b) உயர்வு நவிற்சி",
-            "c) இயல்பு நவிற்சி",
-            "d) தற்குறிப்பேற்றம்"
-        ]
-    },
-    {
-        "numb": 23,
-        "question": "அகவினா எழுத்து எது?",
-        "answer": "a) எ",
-        "options": [
-            "a) எ",
-            "b) யா",
-            "c) ஏ",
-            "d) ஆ"
-        ]
-    },
-    {
-        "numb": 24,
-        "question": "\"நிமிடம்\" எவ்வகைப் பெயர்?",
-        "answer": "a) காலப்பெயர்",
-        "options": [
-            "a) காலப்பெயர்",
-            "b) தொழிற்பெயர்",
-            "c) சினைப்பெயர்",
-            "d) பண்புப்பெயர்"
-        ]
-    },
-    {
-        "numb": 25,
-        "question": "\"பூங்கா\" எவ்வகைப் பெயர்?",
-        "answer": "a) இடப்பெயர்",
-        "options": [
-            "a) இடப்பெயர்",
-            "b) காலப்பெயர்",
-            "c) சினைப்பெயர்",
-            "d) பொருட்பெயர்"
-        ]
-    },
-    {
-        "numb": 26,
-        "question": "\"வட்டம்\" எந்தப் பெயர்ச்சொல்?",
-        "answer": "a) பண்புப்பெயர்",
-        "options": [
-            "a) பண்புப்பெயர்",
-            "b) சினைப்பெயர்",
-            "c) தொழிற்பெயர்",
-            "d) பொருட்பெயர்"
-        ]
-    },
-    {
-        "numb": 27,
-        "question": "இடுகுறிப்பெயர் எடுத்துக்காட்டு எது?",
-        "answer": "c) மணி",
-        "options": [
-            "a) மரம்",
-            "b) மலை",
-            "c) மணி",
-            "d) மழை"
-        ]
-    },
-    {
-        "numb": 28,
-        "question": "காரணப்பெயர் எடுத்துக்காட்டு எது?",
-        "answer": "c) நீர்க்கோளம்",
-        "options": [
-            "a) நீலம்",
-            "b) நெருப்பு",
-            "c) நீர்க்கோளம்",
-            "d) நீர்மூழ்கி"
-        ]
-    },
-    {
-        "numb": 29,
-        "question": "\"ங\" எழுத்து எந்த இடத்தில் வராது?",
-        "answer": "b) சொல்லின் முதலில்",
-        "options": [
-            "a) சொல்லின் இடையில்",
-            "b) சொல்லின் முதலில்",
-            "c) சொல்லின் இறுதியில்",
-            "d) எல்லா இடங்களிலும்"
-        ]
-    },
-    {
-        "numb": 30,
-        "question": "\"மயங்்கொலி\" எழுத்துகள் எவை?",
-        "answer": "b) ல, ள, ழ",
-        "options": [
-            "a) ண, ன, ர",
-            "b) ல, ள, ழ",
-            "c) க, ச, ட",
-            "d) ம், ங், ஞ்"
-        ]
-    },
-    {
-        "numb": 31,
-        "question": "\"அது\" என்பதில் உள்ள சுட்டு எழுத்து எது?",
-        "answer": "a) அ",
-        "options": [
-            "a) அ",
-            "b) து",
-            "c) த்",
-            "d) உ"
-        ]
-    },
-    {
-        "numb": 32,
-        "question": "புறச்சுட்டு எழுத்து எது?",
-        "answer": "b) அ",
-        "options": [
-            "a) இ",
-            "b) அ",
-            "c) உ",
-            "d) எ"
-        ]
-    },
-    {
-        "numb": 33,
-        "question": "\"உது\" போன்ற சொற்களில் பயன்படும் சுட்டு எழுத்து எது?",
-        "answer": "a) உ",
-        "options": [
-            "a) உ",
-            "b) அ",
-            "c) இ",
-            "d) எ"
-        ]
-    },
-    {
-        "numb": 34,
-        "question": "வினாஎழுத்துகளில் எது சொல்லின் முதலில் வரும்?",
-        "answer": "a) எ",
-        "options": [
-            "a) எ",
-            "b) ஆ",
-            "c) ஓ",
-            "d) ஏ"
-        ]
-    },
-    {
-        "numb": 35,
-        "question": "\"ஏன்\" இதில் உள்ள வினாஎழுத்து எது?",
-        "answer": "a) ஏ",
-        "options": [
-            "a) ஏ",
-            "b) ன்",
-            "c) ஏன்",
-            "d) எ"
-        ]
-    },
-    {
-        "numb": 36,
-        "question": "\"மலை முகடு வானைத் தொடுகிறது\" இது எந்த அணி?",
-        "answer": "a) உயர்வு நவிற்சி",
-        "options": [
-            "a) உயர்வு நவிற்சி",
-            "b) இயல்பு நவிற்சி",
-            "c) உவமை அணி",
-            "d) தற்குறிப்பேற்றம்"
-        ]
-    },
-    {
-        "numb": 37,
-        "question": "தற்குறிப்பேற்ற அணிக்கு எடுத்துக்காட்டு எது?",
-        "answer": "c) மேகம் அழுதது",
-        "options": [
-            "a) மழை பொழிகிறது",
-            "b) முருகன் வந்தான்",
-            "c) மேகம் அழுதது",
-            "d) நாய் குரைத்தது"
-        ]
-    },
-    {
-        "numb": 38,
-        "question": "\"அாய்த் எழுத்து\" சொல்லின் எந்த இடத்தில் வராது?",
-        "answer": "a) முதலில்",
-        "options": [
-            "a) முதலில்",
-            "b) இடையில்",
-            "c) இறுதியில்",
-            "d) எல்லா இடங்களிலும்"
-        ]
-    },
-    {
-        "numb": 39,
-        "question": "\"மீன்கொத்தி\" எவ்வகைப் பெயர்?",
-        "answer": "a) இடுகுறிச்சிறப்புப் பெயர்",
-        "options": [
-            "a) இடுகுறிச்சிறப்புப் பெயர்",
-            "b) காரணப்பெயர்",
-            "c) சினைப்பெயர்",
-            "d) பொருட்பெயர்"
-        ]
-    },
-    {
-        "numb": 40,
-        "question": "\"நீர்க்கோளம்\" எவ்வகைப் பெயர்?",
-        "answer": "a) காரணப்பெயர்",
-        "options": [
-            "a) காரணப்பெயர்",
-            "b) பண்புப்பெயர்",
-            "c) தொழிற்பெயர்",
-            "d) பொருட்பெயர்"
-        ]
-    },
-    {
-        "numb": 41,
-        "question": "\"கண்ணீர் ஆறாக ஓடியது\" இது எந்த அணி?",
-        "answer": "a) உருவகம்",
-        "options": [
-            "a) உருவகம்",
-            "b) உவமை",
-            "c) தன்நயம்",
-            "d) வஞ்சப்புகழ்ச்சி"
-        ]
-    },
-    {
-        "numb": 42,
-        "question": "\"குயில் பாடியது\" இது எந்த அணி?",
-        "answer": "c) தற்குறிப்பேற்றம்",
-        "options": [
-            "a) இயல்பு நவிற்சி",
-            "b) உயர்வு நவிற்சி",
-            "c) தற்குறிப்பேற்றம்",
-            "d) உருவகம்"
-        ]
-    },
-    {
-        "numb": 43,
-        "question": "உவமை அணியில் பயன்படும் சொல் எது?",
-        "answer": "a) போல்",
-        "options": [
-            "a) போல்",
-            "b) மட்டும்",
-            "c) ஆனால்",
-            "d) என"
-        ]
-    },
-    {
-        "numb": 44,
-        "question": "\"சுவர்\" எவ்வகைப் பெயர்?",
-        "answer": "a) பொருட்பெயர்",
-        "options": [
-            "a) பொருட்பெயர்",
-            "b) இடப்பெயர்",
-            "c) காலப்பெயர்",
-            "d) சினைப்பெயர்"
-        ]
-    },
-    {
-        "numb": 45,
-        "question": "\"விளையாட்டு\" எந்தப் பெயர்ச்சொல்?",
-        "answer": "a) தொழிற்பெயர்",
-        "options": [
-            "a) தொழிற்பெயர்",
-            "b) பண்புப்பெயர்",
-            "c) பொருட்பெயர்",
-            "d) காலப்பெயர்"
-        ]
-    },
-    {
-        "numb": 46,
-        "question": "\"முத்து\" எவ்வகைப் பெயர்?",
-        "answer": "a) இடுகுறிப்பெயர்",
-        "options": [
-            "a) இடுகுறிப்பெயர்",
-            "b) காரணப்பெயர்",
-            "c) பண்புப்பெயர்",
-            "d) சினைப்பெயர்"
-        ]
-    },
-    {
-        "numb": 47,
-        "question": "\"தன்\" எழுத்து சொல்லின் இறுதியில் வரும் எடுத்துக்காட்டு எது?",
-        "answer": "d) பன்",
-        "options": [
-            "a) மனம்",
-            "b) மணம்",
-            "c) கண்",
-            "d) பன்"
-        ]
-    },
-    {
-        "numb": 48,
-        "question": "\"ழ\" எழுத்து சொல்லின் இடையில் வரும் எடுத்துக்காட்டு எது?",
-        "answer": "b) பழம்",
-        "options": [
-            "a) வழி",
-            "b) பழம்",
-            "c) மழை",
-            "d) கழு"
+            "A. Sister",
+            "B. Cousin",
+            "C. Aunt",
+            "D. Niece"
         ]
     }
- ]
+];
