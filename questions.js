@@ -1,277 +1,242 @@
 let questions = [
   {
     "numb": 1,
-    "question": "Eight friends—A, B, C, D, E, F, G, and H—are sitting in a straight line facing north. B is third to the right of A. C is second to the left of D. E is to the immediate right of F. G is at one of the ends. Who is sitting at the extreme left?",
-    "answer": "b) G",
+    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is:",
+    "answer": "d) 8/15",
     "options": [
-      "a) A",
-      "b) G",
-      "c) F",
-      "d) H"
+      "a) 1/4",
+      "b) 1/10",
+      "c) 7/15",
+      "d) 8/15",
+      "e) None of these"
     ]
   },
   {
     "numb": 2,
-    "question": "Seven people—P, Q, R, S, T, U, and V—are sitting in a row. P is to the immediate left of Q. R is at one of the ends. T is third to the right of P. Who is sitting in the middle?",
-    "answer": "b) T",
+    "question": "A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in:",
+    "answer": "c) 9 3/5",
     "options": [
-      "a) S",
-      "b) T",
-      "c) U",
-      "d) Q"
+      "a) 9 1/5",
+      "b) 9 2/5",
+      "c) 9 3/5",
+      "d) 10",
+      "e) None of these"
     ]
   },
   {
     "numb": 3,
-    "question": "Six friends—L, M, N, O, P, and Q—are sitting in a straight line facing north. N is between L and M. O is to the immediate right of M. P is at one of the ends. Who is sitting to the immediate left of N?",
-    "answer": "a) L",
+    "question": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
+    "answer": "b) 15 days",
     "options": [
-      "a) L",
-      "b) M",
-      "c) O",
-      "d) Q"
+      "a) 12 days",
+      "b) 15 days",
+      "c) 16 days",
+      "d) 18 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 4,
-    "question": "Five persons—A, B, C, D, and E—are sitting in a row. C is to the immediate right of D. B is at one of the ends. E is second to the left of C. Who is sitting at the center?",
-    "answer": "c) D",
+    "question": "A is thrice as good a workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:",
+    "answer": "b) 22 1/2",
     "options": [
-      "a) A",
-      "b) C",
-      "c) D",
-      "d) E"
+      "a) 20 days",
+      "b) 22 1/2",
+      "c) 25 days",
+      "d) 30 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 5,
-    "question": "Nine people are sitting in a row facing north. S is fourth to the right of R. T is second to the left of S. U is to the immediate right of T. V is at one of the ends. Who is sitting at the extreme right?",
-    "answer": "a) V",
+    "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs.3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
+    "answer": "b) Rs.400",
     "options": [
-      "a) V",
-      "b) U",
-      "c) S",
-      "d) R"
+      "a) Rs.375",
+      "b) Rs.400",
+      "c) Rs.600",
+      "d) Rs.800",
+      "e) None of these"
     ]
   },
   {
     "numb": 6,
-    "question": "Eight friends—A, B, C, D, E, F, G, and H—are sitting around a circular table facing the center. A is second to the right of B. C is to the immediate left of D. E is third to the right of F. G is between H and A. Who is sitting to the immediate right of C?",
-    "answer": "a) D",
+    "question": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:",
+    "answer": "a) 4 days",
     "options": [
-      "a) D",
-      "b) E",
-      "c) F",
-      "d) B"
+      "a) 4 days",
+      "b) 5 days",
+      "c) 6 days",
+      "d) 7 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 7,
-    "question": "Seven people are sitting around a circular table facing the center. P is to the immediate right of Q. R is third to the left of P. S is between T and U. Who is sitting opposite to R?",
-    "answer": "c) S",
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "answer": "c) 12 hours",
     "options": [
-      "a) P",
-      "b) Q",
-      "c) S",
-      "d) T"
+      "a) 8 hours",
+      "b) 10 hours",
+      "c) 12 hours",
+      "d) 24 hours",
+      "e) None of these"
     ]
   },
   {
     "numb": 8,
-    "question": "Six friends—L, M, N, O, P, and Q—are sitting around a circular table facing the center. N is second to the right of L. M is to the immediate left of N. O is between P and Q. Who is sitting to the immediate right of O?",
-    "answer": "b) Q",
+    "question": "A can do a certain work in the same time in which B and C together can do it. If A and B together could do it in 10 days and C alone in 50 days, then B alone could do it in:",
+    "answer": "c) 25 days",
     "options": [
-      "a) P",
-      "b) Q",
-      "c) L",
-      "d) M"
+      "a) 15 days",
+      "b) 20 days",
+      "c) 25 days",
+      "d) 30 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 9,
-    "question": "Five persons are sitting around a circular table facing the center. A is to the immediate right of B. C is between D and E. D is second to the left of A. Who is sitting opposite to B?",
-    "answer": "c) E",
+    "question": "A does 80% of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long B alone would take to do the whole work?",
+    "answer": "b) 37 days",
     "options": [
-      "a) C",
-      "b) D",
-      "c) E",
-      "d) A"
+      "a) 23 days",
+      "b) 37 days",
+      "c) 37 1/2",
+      "d) 40 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 10,
-    "question": "Nine people are sitting around a circular table facing the center. S is third to the right of R. T is second to the left of S. U is between T and V. Who is sitting to the immediate left of U?",
-    "answer": "a) T",
+    "question": "A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 A.M. while machine P is closed at 11 A.M. and the remaining two machines complete work. Approximately at what time will the work (to print one lakh books) be finished?",
+    "answer": "d) 1:00 P.M.",
     "options": [
-      "a) T",
-      "b) V",
-      "c) S",
-      "d) R"
+      "a) 11:30 A.M.",
+      "b) 12 noon",
+      "c) 12:30 P.M.",
+      "d) 1:00 P.M.",
+      "e) None of these"
     ]
   },
-  {
+{
     "numb": 11,
-    "question": "Seven people—A, B, C, D, E, F, and G—live on seven different floors of a building. A lives on the floor immediately above B. C lives on the topmost floor. D lives immediately below E. F lives on the floor immediately below G. Who lives on the 3rd floor?",
-    "answer": "b) B",
+    "question": "A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days, A alone can finish the remaining work?",
+    "answer": "c) 6",
     "options": [
-      "a) A",
-      "b) B",
-      "c) D",
-      "d) E"
+      "a) 5",
+      "b) 5 1/2",
+      "c) 6",
+      "d) 8",
+      "e) None of these"
     ]
   },
   {
     "numb": 12,
-    "question": "Eight people—P, Q, R, S, T, U, V, and W—live on eight different floors. P lives on an even-numbered floor. Q lives immediately above R. S lives on the topmost floor. T lives immediately below U. Who lives on the 5th floor?",
-    "answer": "a) T",
+    "question": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?",
+    "answer": "b) 40",
     "options": [
-      "a) T",
-      "b) U",
-      "c) V",
-      "d) W"
+      "a) 35",
+      "b) 40",
+      "c) 45",
+      "d) 50",
+      "e) None of these"
     ]
   },
   {
     "numb": 13,
-    "question": "Six people—L, M, N, O, P, and Q—live on six different floors. N lives on the floor immediately above L. M lives on the topmost floor. O lives immediately below P. Q lives on the floor immediately below N. Who lives on the 2nd floor?",
-    "answer": "a) L",
+    "question": "A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the work?",
+    "answer": "d) 60",
     "options": [
-      "a) L",
-      "b) N",
-      "c) Q",
-      "d) O"
+      "a) 45",
+      "b) 50",
+      "c) 54",
+      "d) 60",
+      "e) None of these"
     ]
   },
   {
     "numb": 14,
-    "question": "Five people—A, B, C, D, and E—live on five different floors. C lives on the floor immediately above D. B lives on the topmost floor. A lives immediately below E. Who lives on the 3rd floor?",
-    "answer": "c) D",
+    "question": "P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work?",
+    "answer": "a) 5 5/11",
     "options": [
-      "a) A",
-      "b) C",
-      "c) D",
-      "d) E"
+      "a) 5 5/11",
+      "b) 5 11/19",
+      "c) 6 11/19",
+      "d) 6 11/19",
+      "e) None of these"
     ]
   },
   {
     "numb": 15,
-    "question": "Seven people—X, Y, Z, W, V, U, and T—live on seven different floors. Y lives on the floor immediately above Z. W lives on the topmost floor. V lives immediately below U. T lives on the floor immediately below Y. Who lives on the 4th floor?",
-    "answer": "a) T",
+    "question": "10 women can complete a work in 7 days and 10 children take 14 days to complete the work. How many days will 5 women and 10 children take to complete the work?",
+    "answer": "c) 7",
     "options": [
-      "a) T",
-      "b) U",
-      "c) V",
-      "d) Z"
+      "a) 3",
+      "b) 5",
+      "c) 7",
+      "d) Data inadequate",
+      "e) None of these"
     ]
   },
   {
     "numb": 16,
-    "question": "Nine people—A1 to A9—live on nine different floors. A2 lives on the floor immediately above A1. A3 lives on the topmost floor. A4 lives immediately below A5. A6 lives on the floor immediately below A2. Who lives on the 5th floor?",
-    "answer": "b) A5",
+    "question": "X and Y can do a piece of work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last?",
+    "answer": "b) 10 days",
     "options": [
-      "a) A4",
-      "b) A5",
-      "c) A6",
-      "d) A7"
+      "a) 6 days",
+      "b) 10 days",
+      "c) 15 days",
+      "d) 20 days",
+      "e) None of these"
     ]
   },
   {
     "numb": 17,
-    "question": "Eight people—B1 to B8—live on eight different floors. B2 lives on the floor immediately above B1. B3 lives on the topmost floor. B4 lives immediately below B5. B6 lives on the floor immediately below B2. Who lives on the 6th floor?",
-    "answer": "b) B5",
+    "question": "A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days?",
+    "answer": "b) 13 days",
     "options": [
-      "a) B4",
-      "b) B5",
-      "c) B6",
-      "d) B7"
+      "a) 11 days",
+      "b) 13 days",
+      "c) 17 3/20",
+      "d) Data inadequate",
+      "e) None of these"
     ]
   },
   {
     "numb": 18,
-    "question": "Seven people—C1 to C7—live on seven different floors. C2 lives on the floor immediately above C1. C3 lives on the topmost floor. C4 lives immediately below C5. C6 lives on the floor immediately below C2. Who lives on the 2nd floor?",
-    "answer": "a) C1",
+    "question": "Ravi and Kumar are working on an assignment. Ravi takes 6 hours to type 32 pages on a computer, while Kumar takes 5 hours to type 40 pages. How much time will they take, working together on two different computers to type an assignment of 110 pages?",
+    "answer": "c) 8 hours 15 minutes",
     "options": [
-      "a) C1",
-      "b) C2",
-      "c) C3",
-      "d) C4"
+      "a) 7 hours 30 minutes",
+      "b) 8 hours",
+      "c) 8 hours 15 minutes",
+      "d) 8 hours 25 minutes",
+      "e) None of these"
     ]
   },
   {
     "numb": 19,
-    "question": "Six people—D1 to D6—live on six different floors. D2 lives on the floor immediately above D1. D3 lives on the topmost floor. D4 lives immediately below D5. D6 lives on the floor immediately below D2. Who lives on the 3rd floor?",
-    "answer": "c) D6",
+    "question": "A, B and C can complete a piece of work in 24, 6 and 12 days respectively. Working together, they will complete the same work in:",
+    "answer": "c) 3 3/7",
     "options": [
-      "a) D4",
-      "b) D5",
-      "c) D6",
-      "d) D1"
+      "a) 1/24 day",
+      "b) 7/24 day",
+      "c) 3 3/7",
+      "d) 4 days",
+      "e) None of these"
     ]
   },
-   {
+  {
     "numb": 20,
-    "question": "Five people—E1 to E5—live on five different floors. E2 lives on the floor immediately above E1. E3 lives on the topmost floor. E4 lives immediately below E5. Who lives on the 2nd floor?",
-    "answer": "a) E1",
+    "question": "Sakshi can do a piece of work in 20 days. Tanya is 25% more efficient than Sakshi. The number of days taken by Tanya to do the same piece of work is:",
+    "answer": "b) 16",
     "options": [
-      "a) E1",
-      "b) E2",
-      "c) E4",
-      "d) E5"
-    ]
-  },
-  {
-    "numb": 21,
-    "question": "Six individuals—F1 to F6—reside on six different floors. F2 lives immediately above F1. F3 lives on the topmost floor. F4 lives immediately below F5. F6 lives on the floor immediately below F2. Who lives on the 4th floor?",
-    "answer": "b) F5",
-    "options": [
-      "a) F4",
-      "b) F5",
-      "c) F6",
-      "d) F1"
-    ]
-  },
-  {
-    "numb": 22,
-    "question": "Seven people—G1 to G7—live on seven different floors. G2 lives on the floor immediately above G1. G3 lives on the topmost floor. G4 lives immediately below G5. G6 lives on the floor immediately below G2. Who lives on the 5th floor?",
-    "answer": "c) G5",
-    "options": [
-      "a) G4",
-      "b) G6",
-      "c) G5",
-      "d) G1"
-    ]
-  },
-  {
-    "numb": 23,
-    "question": "Eight individuals—H1 to H8—reside on eight different floors. H2 lives immediately above H1. H3 lives on the topmost floor. H4 lives immediately below H5. H6 lives on the floor immediately below H2. Who lives on the 6th floor?",
-    "answer": "b) H5",
-    "options": [
-      "a) H4",
-      "b) H5",
-      "c) H6",
-      "d) H1"
-    ]
-  },
-  {
-    "numb": 24,
-    "question": "Nine people—I1 to I9—live on nine different floors. I2 lives on the floor immediately above I1. I3 lives on the topmost floor. I4 lives immediately below I5. I6 lives on the floor immediately below I2. Who lives on the 7th floor?",
-    "answer": "c) I5",
-    "options": [
-      "a) I4",
-      "b) I6",
-      "c) I5",
-      "d) I1"
-    ]
-  },
-  {
-    "numb": 25,
-    "question": "Ten individuals—J1 to J10—reside on ten different floors. J2 lives immediately above J1. J3 lives on the topmost floor. J4 lives immediately below J5. J6 lives on the floor immediately below J2. Who lives on the 8th floor?",
-    "answer": "b) J5",
-    "options": [
-      "a) J4",
-      "b) J5",
-      "c) J6",
-      "d) J1"
+      "a) 15",
+      "b) 16",
+      "c) 18",
+      "d) 25",
+      "e) None of these"
     ]
   }
 ];
