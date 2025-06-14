@@ -1,242 +1,362 @@
 let questions = [
-  {
-    "numb": 1,
-    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is:",
-    "answer": "d) 8/15",
-    "options": [
-      "a) 1/4",
-      "b) 1/10",
-      "c) 7/15",
-      "d) 8/15",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 2,
-    "question": "A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in:",
-    "answer": "c) 9 3/5",
-    "options": [
-      "a) 9 1/5",
-      "b) 9 2/5",
-      "c) 9 3/5",
-      "d) 10",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 3,
-    "question": "A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?",
-    "answer": "b) 15 days",
-    "options": [
-      "a) 12 days",
-      "b) 15 days",
-      "c) 16 days",
-      "d) 18 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 4,
-    "question": "A is thrice as good a workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:",
-    "answer": "b) 22 1/2",
-    "options": [
-      "a) 20 days",
-      "b) 22 1/2",
-      "c) 25 days",
-      "d) 30 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 5,
-    "question": "A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for Rs.3200. With the help of C, they completed the work in 3 days. How much is to be paid to C?",
-    "answer": "b) Rs.400",
-    "options": [
-      "a) Rs.375",
-      "b) Rs.400",
-      "c) Rs.600",
-      "d) Rs.800",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 6,
-    "question": "If 6 men and 8 boys can do a piece of work in 10 days while 26 men and 48 boys can do the same in 2 days, the time taken by 15 men and 20 boys in doing the same type of work will be:",
-    "answer": "a) 4 days",
-    "options": [
-      "a) 4 days",
-      "b) 5 days",
-      "c) 6 days",
-      "d) 7 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 7,
-    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
-    "answer": "c) 12 hours",
-    "options": [
-      "a) 8 hours",
-      "b) 10 hours",
-      "c) 12 hours",
-      "d) 24 hours",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 8,
-    "question": "A can do a certain work in the same time in which B and C together can do it. If A and B together could do it in 10 days and C alone in 50 days, then B alone could do it in:",
-    "answer": "c) 25 days",
-    "options": [
-      "a) 15 days",
-      "b) 20 days",
-      "c) 25 days",
-      "d) 30 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 9,
-    "question": "A does 80% of a work in 20 days. He then calls in B and they together finish the remaining work in 3 days. How long B alone would take to do the whole work?",
-    "answer": "b) 37 days",
-    "options": [
-      "a) 23 days",
-      "b) 37 days",
-      "c) 37 1/2",
-      "d) 40 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 10,
-    "question": "A machine P can print one lakh books in 8 hours, machine Q can print the same number of books in 10 hours while machine R can print them in 12 hours. All the machines are started at 9 A.M. while machine P is closed at 11 A.M. and the remaining two machines complete work. Approximately at what time will the work (to print one lakh books) be finished?",
-    "answer": "d) 1:00 P.M.",
-    "options": [
-      "a) 11:30 A.M.",
-      "b) 12 noon",
-      "c) 12:30 P.M.",
-      "d) 1:00 P.M.",
-      "e) None of these"
-    ]
-  },
-{
-    "numb": 11,
-    "question": "A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days, A alone can finish the remaining work?",
-    "answer": "c) 6",
-    "options": [
-      "a) 5",
-      "b) 5 1/2",
-      "c) 6",
-      "d) 8",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 12,
-    "question": "4 men and 6 women can complete a work in 8 days, while 3 men and 7 women can complete it in 10 days. In how many days will 10 women complete it?",
-    "answer": "b) 40",
-    "options": [
-      "a) 35",
-      "b) 40",
-      "c) 45",
-      "d) 50",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 13,
-    "question": "A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the work?",
-    "answer": "d) 60",
-    "options": [
-      "a) 45",
-      "b) 50",
-      "c) 54",
-      "d) 60",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 14,
-    "question": "P can complete a work in 12 days working 8 hours a day. Q can complete the same work in 8 days working 10 hours a day. If both P and Q work together, working 8 hours a day, in how many days can they complete the work?",
-    "answer": "a) 5 5/11",
-    "options": [
-      "a) 5 5/11",
-      "b) 5 11/19",
-      "c) 6 11/19",
-      "d) 6 11/19",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 15,
-    "question": "10 women can complete a work in 7 days and 10 children take 14 days to complete the work. How many days will 5 women and 10 children take to complete the work?",
-    "answer": "c) 7",
-    "options": [
-      "a) 3",
-      "b) 5",
-      "c) 7",
-      "d) Data inadequate",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 16,
-    "question": "X and Y can do a piece of work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last?",
-    "answer": "b) 10 days",
-    "options": [
-      "a) 6 days",
-      "b) 10 days",
-      "c) 15 days",
-      "d) 20 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 17,
-    "question": "A is 30% more efficient than B. How much time will they, working together, take to complete a job which A alone could have done in 23 days?",
-    "answer": "b) 13 days",
-    "options": [
-      "a) 11 days",
-      "b) 13 days",
-      "c) 17 3/20",
-      "d) Data inadequate",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 18,
-    "question": "Ravi and Kumar are working on an assignment. Ravi takes 6 hours to type 32 pages on a computer, while Kumar takes 5 hours to type 40 pages. How much time will they take, working together on two different computers to type an assignment of 110 pages?",
-    "answer": "c) 8 hours 15 minutes",
-    "options": [
-      "a) 7 hours 30 minutes",
-      "b) 8 hours",
-      "c) 8 hours 15 minutes",
-      "d) 8 hours 25 minutes",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 19,
-    "question": "A, B and C can complete a piece of work in 24, 6 and 12 days respectively. Working together, they will complete the same work in:",
-    "answer": "c) 3 3/7",
-    "options": [
-      "a) 1/24 day",
-      "b) 7/24 day",
-      "c) 3 3/7",
-      "d) 4 days",
-      "e) None of these"
-    ]
-  },
-  {
-    "numb": 20,
-    "question": "Sakshi can do a piece of work in 20 days. Tanya is 25% more efficient than Sakshi. The number of days taken by Tanya to do the same piece of work is:",
-    "answer": "b) 16",
-    "options": [
-      "a) 15",
-      "b) 16",
-      "c) 18",
-      "d) 25",
-      "e) None of these"
-    ]
-  }
+ {
+        "numb": 31,
+        "question": "A tub can be filled in 20 minutes but there is a leakage in it which can empty the full tub in 60 minutes. In how many minutes can it be filled?",
+        "answer": "b) 30 minutes",
+        "options": [
+            "a) 10 minutes",
+            "b) 30 minutes",
+            "c) 40 minutes",
+            "d) 25 minutes",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 32,
+        "question": "A can do a piece of work in 14 days while B can do it in 21 days. In how many days, working together will they complete the whole work?",
+        "answer": "c) 8.4",
+        "options": [
+            "a) 10.5",
+            "b) 8",
+            "c) 8.4",
+            "d) 9",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 33,
+        "question": "A is thrice as efficient as B. Working together they complete the work in 3 days. If B takes 8 days more than A, what is the number of days taken by A to finish the whole work alone?",
+        "answer": "a) 4",
+        "options": [
+            "a) 4",
+            "b) 2",
+            "c) 12",
+            "d) 16",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 34,
+        "question": "Aman can do a piece of work in 14 days, while Suneeta can do the same work in 21 days. They started the work together but 3 days before completion, Aman left. The total days to complete the work is:",
+        "answer": "a) 7 1/5",
+        "options": [
+            "a) 7 1/5",
+            "b) 8.5",
+            "c) 5",
+            "d) 10 1/5",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 35,
+        "question": "Karan can do a work in 10 days while Sohan can do it in 20 days. They started together. After 3 days, Karan left and Sohan completed it. For how many days did Sohan work alone more than the days required if both worked together?",
+        "answer": "a) 4 1/3",
+        "options": [
+            "a) 4 1/3",
+            "b) 3 1/5",
+            "c) 2 3/5",
+            "d) 3 2/3",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 36,
+        "question": "A and B undertook a work for Rs.350. A got Rs.150 more than B. B takes 9 days more than A individually. In how many days can A and B together do the whole work?",
+        "answer": "b) 4 2/7",
+        "options": [
+            "a) 5",
+            "b) 4 2/7",
+            "c) 4 5/7",
+            "d) 5 4/7",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 37,
+        "question": "When A, B, and C are deployed, A and B do 70% of the work, and B and C do 50%. Who is most efficient?",
+        "answer": "a) A",
+        "options": [
+            "a) A",
+            "b) B",
+            "c) C",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 38,
+        "question": "A contractor had 75 workers to complete a work in 60 days. After 20 days, only 1/5th was done. How many more workers are needed to finish on time?",
+        "answer": "c) 75",
+        "options": [
+            "a) 25",
+            "b) 50",
+            "c) 75",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 39,
+        "question": "If 2 men or 3 women or 4 boys do a work in 52 days, how long will 1 man, 1 woman, and 1 boy take?",
+        "answer": "e) None of these",
+        "options": [
+            "a) 48 days",
+            "b) 36 days",
+            "c) 45 days",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 40,
+        "question": "A contractor undertook to complete the work in 40 days and he deployed 20 men for his work. With 8 days left, 1/3 rd work remained. How many more men are needed?",
+        "answer": "c) 20",
+        "options": [
+            "a) 16",
+            "b) 15",
+            "c) 20",
+            "d) 25",
+            "e) None of these"
+        ]
+    },
+   {
+        "numb": 41,
+        "question": "B and C are equally efficient. A’s efficiency is half of B or C. A and B started work; C joined after 3 days. A alone takes 14 days. How many more days to complete?",
+        "answer": "a) 1",
+        "options": [
+            "a) 1",
+            "b) 2",
+            "c) 3",
+            "d) 4.5",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 42,
+        "question": "A and B together finish work in 4 days. A alone takes 12 days. How many days for B alone?",
+        "answer": "a) 6 days",
+        "options": [
+            "a) 6 days",
+            "b) 12",
+            "c) 8 days",
+            "d) 9 days",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 43,
+        "question": "4 men and 2 boys finish work in 5 days; 3 women and 4 boys in 5 days; 2 men and 3 women in 5 days. In how many days will 1 man, 1 woman, and 1 boy (at double efficiency) finish?",
+        "answer": "e) None of these",
+        "options": [
+            "a) 4 8/13",
+            "b) 4 7/13",
+            "c) 3 7/13",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 44,
+        "question": "A and B undertake work for Rs.600. A alone does it in 6 days, B in 8 days. With C, they finish in 3 days. Find C’s share.",
+        "answer": "b) Rs.75",
+        "options": [
+            "a) Rs.80",
+            "b) Rs.75",
+            "c) Rs.90",
+            "d) Rs.82",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 45,
+        "question": "Tap A fills an empty tank in 12 hours. With a leak, it fills in 15 hours. If the tank is full and A is closed, how long will the leak take to empty it?",
+        "answer": "d) 60 hours",
+        "options": [
+            "a) 45 hours",
+            "b) 48 hours",
+            "c) 52 hours",
+            "d) 60 hours",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 46,
+        "question": "A is twice as good as B. Together they finish in 18 days. How many days for A alone?",
+        "answer": "c) 27 days",
+        "options": [
+            "a) 72 days",
+            "b) 30 days",
+            "c) 27 days",
+            "d) 32 days",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 47,
+        "question": "Pipe A (inlet) and B (outlet) are opened together. Filling with A and emptying with B takes double the time than both filling. Ratio of efficiency of A:B?",
+        "answer": "a) 3 : 1",
+        "options": [
+            "a) 3 : 1",
+            "b) 5 : 2",
+            "c) 1 : 3",
+            "d) 3 : 2",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 48,
+        "question": "45 men complete work in 16 days. After 6 days, 30 more join. How many days for the remaining work?",
+        "answer": "d) 6 days",
+        "options": [
+            "a) 18 days",
+            "b) 12 days",
+            "c) 9 days",
+            "d) 6 days",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 49,
+        "question": "Pipes A and B fill a cistern in 15 and 10 hours. Tap C empties it in 30 hours. All three were open for 2 hours, then C was closed. How many more hours to fill?",
+        "answer": "c) 24 min.",
+        "options": [
+            "a) 30 min.",
+            "b) 1.2 hours",
+            "c) 24 min.",
+            "d) 35 min.",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 50,
+        "question": "A tyre has two punctures. First flattens it in 9 minutes, second in 6 minutes. How long for both together?",
+        "answer": "c) 3 3/5",
+        "options": [
+            "a) 1 1/2",
+            "b) 3 1/2",
+            "c) 3 3/5",
+            "d) 4 1/4",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 51,
+        "question": "A reservoir fails in 90 days if 40,000 litres/day are used, and in 60 days if 32,000 litres/day are used. How much can be used daily without failing?",
+        "answer": "b) 56000 litres",
+        "options": [
+            "a) 64000 litres",
+            "b) 56000 litres",
+            "c) 78000 litres",
+            "d) 60000 litres",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 52,
+        "question": "A is 50% more efficient than B. C does half the work of A and B together. If C alone takes 40 days, how long for A, B, and C together?",
+        "answer": "a) 13 1/3 days",
+        "options": [
+            "a) 13 1/3 days",
+            "b) 15 days",
+            "c) 20 days",
+            "d) 30 days",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 53,
+        "question": "Total workers: 18. Daily earnings: Rs.4000. Wages ratio (all men : all women : all children) = 18 : 10 : 12. Individual wage ratio (man : woman : child) = 6 : 5 : 3. Daily earnings of a woman?",
+        "answer": "b) Rs.250",
+        "options": [
+            "a) Rs.400",
+            "b) Rs.250",
+            "c) Rs.150",
+            "d) Rs.120",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 54,
+        "question": "P completes work in 12 days (8 hours/day). Q completes it in 8 days (10 hours/day). Both work 8 hours/day together. How many days?",
+        "answer": "a) 5 5/11",
+        "options": [
+            "a) 5 5/11",
+            "b) 5 6/11",
+            "c) 6 5/11",
+            "d) 6 6/11",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 55,
+        "question": "Eklavya does 6 times actual work in 36 days. Faizal does one-fourth of the original work in 3 days. How many days for both to complete 3 times original work?",
+        "answer": "c) 12",
+        "options": [
+            "a) 6",
+            "b) 10",
+            "c) 12",
+            "d) 15",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 56,
+        "question": "A and B finish work in 30 days. They work 20 days, B leaves. A finishes in 20 more days. Days for A alone?",
+        "answer": "d) 60",
+        "options": [
+            "a) 40",
+            "b) 50",
+            "c) 54",
+            "d) 60",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 57,
+        "question": "Aman and Raman complete work together in 10 hours. Aman worked 2.5 hours, Raman 8.5 hours—half work left. Aman alone completes in?",
+        "answer": "b) 17 1/7 hours",
+        "options": [
+            "a) 24 hours",
+            "b) 17 1/7 hours",
+            "c) 40 hours",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 58,
+        "question": "5 men and 2 boys do four times the work of 1 man and 1 boy. Ratio of working capacity (man : boy)?",
+        "answer": "b) 2 : 1",
+        "options": [
+            "a) 1 : 2",
+            "b) 2 : 1",
+            "c) 1 : 3",
+            "d) 3 : 1",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 59,
+        "question": "A does work in 6 days, B in 8 days. They undertake for Rs.3200. With C, they finish in 3 days. Payment to C?",
+        "answer": "b) Rs.400",
+        "options": [
+            "a) Rs.375",
+            "b) Rs.400",
+            "c) Rs.600",
+            "d) Rs.800",
+            "e) None of these"
+        ]
+    },
+    {
+        "numb": 60,
+        "question": "Leakage drains at half the rate of an outlet pipe. Time to fill the empty tank when both pipes (inlet and outlet) are open?",
+        "answer": "c) 4 hours",
+        "options": [
+            "a) 3 hours",
+            "b) 3 2/3 hours",
+            "c) 4 hours",
+            "d) Data inadequate",
+            "e) None of these"
+        ]
+    }
 ];
